@@ -1,18 +1,18 @@
 import type {
   Burden,
-  Category,
   Damage,
   DamageType,
   NamedFeature,
   Range,
   Tier,
   Trait,
+  WeaponCategory,
 } from "../common.ts";
 
 export type Weapon = {
   name: string;
   tier: Tier;
-  category: Category;
+  category: WeaponCategory;
   trait: Trait;
   range: Range;
   damage: Damage;

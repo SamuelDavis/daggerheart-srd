@@ -1,4 +1,4 @@
-import { domains } from "../common.ts";
+import { domainNames } from "../common.ts";
 import {
   bullets,
   fields,
@@ -31,7 +31,7 @@ export function parseClass(markdown: string): Class {
     name: doc.title,
     description,
     domains: linkTexts(requireField(f, "domains")).map((d) =>
-      oneOf(domains, d, "domain")
+      oneOf(domainNames, d, "domain")
     ),
     startingEvasion: int(
       requireField(f, "starting evasion"),

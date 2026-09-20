@@ -1,4 +1,4 @@
-import type { DomainName, domains } from "../common.ts";
+import type { DomainName } from "../common.ts";
 import type { Ability } from "./ability.ts";
 
 export type Domain = {

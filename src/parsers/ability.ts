@@ -1,4 +1,4 @@
-import { cardTypes, domains } from "../common.ts";
+import { cardTypes, domainNames } from "../common.ts";
 import {
   int,
   matchOrThrow,
@@ -20,7 +20,7 @@ export function parseAbility(markdown: string): Ability {
   return {
     name: doc.title,
     level: int(m[1], "level"),
-    domain: oneOf(domains, m[2], "domain"),
+    domain: oneOf(domainNames, m[2], "domain"),
     cardType: oneOf(cardTypes, m[3], "card type"),
     recallCost: int(m[4], "recall cost"),
     description: text([

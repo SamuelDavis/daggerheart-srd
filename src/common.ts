@@ -35,8 +35,8 @@ export type DamageType = (typeof damageTypes)[number];
 export const burdens = ["One-Handed", "Two-Handed"] as const;
 export type Burden = (typeof burdens)[number];
 
-export const categories = ["Primary", "Secondary"] as const;
-export type Category = (typeof categories)[number];
+export const weaponCategories = ["Primary", "Secondary"] as const;
+export type WeaponCategory = (typeof weaponCategories)[number];
 
 export const featureTypes = [
   "action",
@@ -46,7 +46,7 @@ export const featureTypes = [
 ] as const;
 export type FeatureType = (typeof featureTypes)[number];
 
-export const domains = [
+export const domainNames = [
   "Arcana",
   "Blade",
   "Bone",
@@ -58,7 +58,7 @@ export const domains = [
   "Splendor",
   "Valor",
 ] as const;
-export type DomainName = (typeof domains)[number];
+export type DomainName = (typeof domainNames)[number];
 
 export const cardTypes = ["Ability", "Spell", "Grimoire"] as const;
 export type CardType = (typeof cardTypes)[number];

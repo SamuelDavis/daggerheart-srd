@@ -1,4 +1,4 @@
-import { domains } from "../common.ts";
+import { domainNames } from "../common.ts";
 import {
   int,
   linkTexts,
@@ -35,7 +35,7 @@ export function parseDomain(markdown: string): Domain {
   if (cards.length === 0) throw new Error("no domain cards found");
 
   return {
-    name: oneOf(domains, doc.title, "domain"),
+    name: oneOf(domainNames, doc.title, "domain"),
     description: text(doc.preamble),
     cards,
   };

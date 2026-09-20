@@ -81,7 +81,47 @@ async function fixDeclarations(dir: string) {
 }
 await fixDeclarations(join(out, "dist"));
 
-// 3. package.json
+// 3. Typed wrappers around the JSON data.
+const dataTypes: Record<string, string> = {
+  abilities: "Ability",
+  adversaries: "Adversary",
+  ancestries: "Ancestry",
+  armor: "Armor",
+  beastforms: "Beastform",
+  classes: "Class",
+  communities: "Community",
+  consumables: "Consumable",
+  domains: "Domain",
+  environments: "Environment",
+  items: "Item",
+  subclasses: "Subclass",
+  transformations: "Transformation",
+  weapons: "Weapon",
+};
+const exportLines: string[] = [];
+for (const [name, type] of Object.entries(dataTypes)) {
+  exportLines.push(
+    `export { default as ${name} } from "../data/${name}.js";\n`,
+  );
+  await Deno.writeTextFile(
+    join(out, "data", `${name}.js`),
+    `import data from "./${name}.json" with { type: "json" };\nexport default data;\n`,
+  );
+  await Deno.writeTextFile(
+    join(out, "data", `${name}.d.ts`),
+    `import type { ${type} } from "../dist/index.js";\ndeclare const data: ${type}[];\nexport default data;\n`,
+  );
+}
+
+for (const file of ["index.js", "index.d.ts"]) {
+  const path = join(out, "dist", file);
+  await Deno.writeTextFile(
+    path,
+    (await Deno.readTextFile(path)) + exportLines.join(""),
+  );
+}
+
+// 4. package.json
 const pkg = {
   name: "@samueldavis/daggerheart-srd",
   version: `${versionArg}.0.0`,
@@ -89,8 +129,10 @@ const pkg = {
   types: "./dist/index.d.ts",
   exports: {
     ".": { types: "./dist/index.d.ts", default: "./dist/index.js" },
-    "./data/*": "./data/*.json",
+    "./data/*.json": "./data/*.json",
+    "./data/*": { types: "./data/*.d.ts", default: "./data/*.js" },
   },
+  sideEffects: false,
   files: ["dist", "data"],
 };
 await Deno.writeTextFile(

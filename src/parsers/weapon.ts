@@ -1,4 +1,4 @@
-import { burdens, categories, ranges, traits } from "../common.ts";
+import { burdens, ranges, traits, weaponCategories } from "../common.ts";
 import {
   damageWithType,
   fields,
@@ -29,7 +29,7 @@ export function parseWeapon(markdown: string): Weapon {
   return {
     name: doc.title,
     tier: tier(h[1]),
-    category: oneOf(categories, h[2], "category"),
+    category: oneOf(weaponCategories, h[2], "category"),
     trait: oneOf(traits, requireField(f, "trait").toLowerCase(), "trait"),
     range: oneOf(ranges, requireField(f, "range"), "range"),
     ...damageWithType(requireField(f, "damage")),
