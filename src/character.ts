@@ -1,17 +1,17 @@
 // A player character as recorded on a character sheet. Hard-coded from
 // CHARACTER_CREATION.md and the SRD README; references the parsed-data types.
 import type { DomainName, NamedFeature, Trait } from "./common.ts";
-import type { Ability } from "./parsers/ability.ts";
-import type { Ancestry } from "./parsers/ancestry.ts";
-import type { Armor } from "./parsers/armor.ts";
-import type { Beastform } from "./parsers/beastform.ts";
-import type { Class } from "./parsers/class.ts";
-import type { Community } from "./parsers/community.ts";
-import type { Consumable } from "./parsers/consumable.ts";
-import type { Item } from "./parsers/item.ts";
-import type { Subclass } from "./parsers/subclass.ts";
-import type { Transformation } from "./parsers/transformation.ts";
-import type { Weapon } from "./parsers/weapon.ts";
+import type { Ability } from "./types/ability.ts";
+import type { Ancestry } from "./types/ancestry.ts";
+import type { Armor } from "./types/armor.ts";
+import type { Beastform } from "./types/beastform.ts";
+import type { Class } from "./types/class.ts";
+import type { Community } from "./types/community.ts";
+import type { Consumable } from "./types/consumable.ts";
+import type { Item } from "./types/item.ts";
+import type { Subclass } from "./types/subclass.ts";
+import type { Transformation } from "./types/transformation.ts";
+import type { Weapon } from "./types/weapon.ts";
 
 export const levels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] as const;
 export type Level = (typeof levels)[number];

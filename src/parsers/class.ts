@@ -1,4 +1,4 @@
-import { domains, type NamedFeature } from "../common.ts";
+import { domains } from "../common.ts";
 import {
   bullets,
   fields,
@@ -11,22 +11,7 @@ import {
   requireSection,
   text,
 } from "../markdown.ts";
-import type { Domain } from "./domain.ts";
-import type { Subclass } from "./subclass.ts";
-
-export type Class = {
-  name: string;
-  description: string;
-  domains: Domain["name"][];
-  startingEvasion: number;
-  startingHitPoints: number;
-  classItems: string;
-  hopeFeature: NamedFeature;
-  classFeatures: NamedFeature[];
-  subclasses: Subclass["name"][];
-  backgroundQuestions: string[];
-  connections: string[];
-};
+import type { Class } from "../types/class.ts";
 
 export function parseClass(markdown: string): Class {
   const doc = parseDoc(markdown);

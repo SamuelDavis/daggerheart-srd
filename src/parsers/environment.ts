@@ -1,9 +1,4 @@
-import {
-  type EnvironmentType,
-  environmentTypes,
-  type Tier,
-  type TypedFeature,
-} from "../common.ts";
+import { environmentTypes } from "../common.ts";
 import {
   fields,
   matchOrThrow,
@@ -16,20 +11,8 @@ import {
   tier,
   typedFeatures,
 } from "../markdown.ts";
-import type { Adversary } from "./adversary.ts";
+import type { Environment } from "../types/environment.ts";
 
-export type Environment = {
-  name: string;
-  tier: Tier;
-  environmentType: EnvironmentType;
-  description: string;
-  impulses: string[];
-  difficulty: string;
-  potentialAdversaries: "Any" | Adversary["name"][];
-  features: TypedFeature[];
-};
-
-// **_Tier 4 Traversal._** _An otherworldly space ..._
 export function parseEnvironment(markdown: string): Environment {
   const doc = parseDoc(markdown);
   const { header, rest } = splitHeader(doc.preamble);

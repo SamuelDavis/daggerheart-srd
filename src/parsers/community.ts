@@ -1,4 +1,3 @@
-import type { NamedFeature } from "../common.ts";
 import {
   matchOrThrow,
   namedFeatures,
@@ -7,14 +6,7 @@ import {
   text,
   trimBlank,
 } from "../markdown.ts";
-
-export type Community = {
-  name: string;
-  description: string;
-  /** From "_X are often candid, cooperative, and weathered._" */
-  temperament: string[];
-  feature: NamedFeature;
-};
+import type { Community } from "../types/community.ts";
 
 export function parseCommunity(markdown: string): Community {
   const doc = parseDoc(markdown);

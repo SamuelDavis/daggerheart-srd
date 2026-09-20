@@ -1,17 +1,4 @@
-import {
-  type Burden,
-  burdens,
-  categories,
-  type Category,
-  type Damage,
-  type DamageType,
-  type NamedFeature,
-  type Range,
-  ranges,
-  type Tier,
-  type Trait,
-  traits,
-} from "../common.ts";
+import { burdens, categories, ranges, traits } from "../common.ts";
 import {
   damageWithType,
   fields,
@@ -24,21 +11,8 @@ import {
   splitHeader,
   tier,
 } from "../markdown.ts";
+import type { Weapon } from "../types/weapon.ts";
 
-export type Weapon = {
-  name: string;
-  tier: Tier;
-  category: Category;
-  trait: Trait;
-  range: Range;
-  damage: Damage;
-  damageType: DamageType[];
-  burden: Burden;
-  /** null for weapons with no feature. */
-  feature: NamedFeature | null;
-};
-
-// **_Tier 3_** _Primary_ _Magical_ _Weapon_
 export function parseWeapon(markdown: string): Weapon {
   const doc = parseDoc(markdown);
   const { header, rest } = splitHeader(doc.preamble);

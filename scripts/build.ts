@@ -59,9 +59,9 @@ for await (const f of Deno.readDir(join(out, "dist"))) {
     f.name.endsWith(".d.ts") || f.isDirectory;
   if (!keep) await Deno.remove(join(out, "dist", f.name));
 }
-for await (const f of Deno.readDir(join(out, "dist", "parsers"))) {
+for await (const f of Deno.readDir(join(out, "dist", "types"))) {
   if (f.name.endsWith(".js")) {
-    await Deno.remove(join(out, "dist", "parsers", f.name));
+    await Deno.remove(join(out, "dist", "types", f.name));
   }
 }
 

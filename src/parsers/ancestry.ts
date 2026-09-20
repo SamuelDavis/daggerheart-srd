@@ -1,11 +1,5 @@
-import type { NamedFeature } from "../common.ts";
 import { namedFeatures, parseDoc, requireSection, text } from "../markdown.ts";
-
-export type Ancestry = {
-  name: string;
-  description: string;
-  features: NamedFeature[];
-};
+import type { Ancestry } from "../types/ancestry.ts";
 
 export function parseAncestry(markdown: string): Ancestry {
   const doc = parseDoc(markdown);

@@ -1,4 +1,3 @@
-import type { NamedFeature } from "../common.ts";
 import {
   bullets,
   namedFeatures,
@@ -6,13 +5,7 @@ import {
   requireSection,
   text,
 } from "../markdown.ts";
-
-export type Transformation = {
-  name: string;
-  description: string;
-  features: NamedFeature[];
-  questions: string[];
-};
+import type { Transformation } from "../types/transformation.ts";
 
 export function parseTransformation(markdown: string): Transformation {
   const doc = parseDoc(markdown);

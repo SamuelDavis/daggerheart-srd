@@ -1,4 +1,4 @@
-import { type CardType, cardTypes, domains } from "../common.ts";
+import { cardTypes, domains } from "../common.ts";
 import {
   int,
   matchOrThrow,
@@ -7,18 +7,8 @@ import {
   splitHeader,
   text,
 } from "../markdown.ts";
-import type { Domain } from "./domain.ts";
+import type { Ability } from "../types/ability.ts";
 
-export type Ability = {
-  name: string;
-  level: number;
-  domain: Domain["name"];
-  cardType: CardType;
-  recallCost: number;
-  description: string;
-};
-
-// **_Level 5_** _Splendor Spell._ **_Recall Cost_** _2._
 export function parseAbility(markdown: string): Ability {
   const doc = parseDoc(markdown);
   const { header, rest } = splitHeader(doc.preamble);

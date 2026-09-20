@@ -1,4 +1,4 @@
-import { type NamedFeature, type Trait, traits } from "../common.ts";
+import { traits } from "../common.ts";
 import {
   findSection,
   namedFeatures,
@@ -7,16 +7,7 @@ import {
   requireSection,
   text,
 } from "../markdown.ts";
-
-export type Subclass = {
-  name: string;
-  description: string;
-  /** null for subclasses with no spellcast trait. */
-  spellcastTrait: Trait | null;
-  foundationFeatures: NamedFeature[];
-  specializationFeatures: NamedFeature[];
-  masteryFeatures: NamedFeature[];
-};
+import type { Subclass } from "../types/subclass.ts";
 
 export function parseSubclass(markdown: string): Subclass {
   const doc = parseDoc(markdown);

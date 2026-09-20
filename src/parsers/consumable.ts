@@ -1,14 +1,6 @@
 import { parseDoc, text, withoutTypeMarker } from "../markdown.ts";
+import type { Consumable } from "../types/consumable.ts";
 
-export type Consumable = {
-  name: string;
-  type: "Consumable";
-  /** Position in the SRD loot table (1-60). */
-  roll: number;
-  description: string;
-};
-
-// **_Consumable_**
 export function parseConsumable(markdown: string, roll: number): Consumable {
   const doc = parseDoc(markdown);
   // The marker is usually first, but occasionally follows the text.

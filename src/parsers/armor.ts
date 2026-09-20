@@ -1,4 +1,3 @@
-import type { ArmorThresholds, NamedFeature, Tier } from "../common.ts";
 import {
   fields,
   findSection,
@@ -11,17 +10,8 @@ import {
   thresholds,
   tier,
 } from "../markdown.ts";
+import type { Armor } from "../types/armor.ts";
 
-export type Armor = {
-  name: string;
-  tier: Tier;
-  baseThresholds: ArmorThresholds;
-  baseScore: number;
-  /** null for armor with no feature. */
-  feature: NamedFeature | null;
-};
-
-// **_Tier 2_** _Armor_
 export function parseArmor(markdown: string): Armor {
   const doc = parseDoc(markdown);
   const { header, rest } = splitHeader(doc.preamble);

@@ -47,18 +47,3 @@ export const parsers: Record<
   transformations: parseTransformation,
   weapons: parseWeapon,
 };
-
-export * from "./ability.ts";
-export * from "./adversary.ts";
-export * from "./ancestry.ts";
-export * from "./armor.ts";
-export * from "./beastform.ts";
-export * from "./class.ts";
-export * from "./community.ts";
-export * from "./consumable.ts";
-export * from "./domain.ts";
-export * from "./environment.ts";
-export * from "./item.ts";
-export * from "./subclass.ts";
-export * from "./transformation.ts";
-export * from "./weapon.ts";

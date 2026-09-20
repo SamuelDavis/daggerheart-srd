@@ -1,4 +1,4 @@
-import { type DomainName, domains } from "../common.ts";
+import { domains } from "../common.ts";
 import {
   int,
   linkTexts,
@@ -7,15 +7,7 @@ import {
   parseDoc,
   text,
 } from "../markdown.ts";
-import type { Ability } from "./ability.ts";
-
-export type Domain = {
-  /** Official domains only for now; widen here to allow custom domains. */
-  name: DomainName;
-  description: string;
-  /** One entry per level; `abilities` are ability names, in column order. */
-  cards: { level: number; abilities: Ability["name"][] }[];
-};
+import type { Domain } from "../types/domain.ts";
 
 export function parseDomain(markdown: string): Domain {
   const doc = parseDoc(markdown);
