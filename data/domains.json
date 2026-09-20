@@ -1,0 +1,772 @@
+[
+  {
+    "name": "Arcana",
+    "description": "Arcana is the domain of **innate and instinctual magic.** Those who choose this path tap into the raw, enigmatic forces of the realms to manipulate both their own energy and the elements. Arcana offers wielders a volatile power, but it is incredibly potent when correctly channeled. The Arcana domain can be accessed by the **Druid** and **Sorcerer** classes.",
+    "cards": [
+      {
+        "level": 1,
+        "abilities": [
+          "Rune Ward",
+          "Unleash Chaos",
+          "Wall Walk"
+        ]
+      },
+      {
+        "level": 2,
+        "abilities": [
+          "Cinder Grasp",
+          "Floating Eye"
+        ]
+      },
+      {
+        "level": 3,
+        "abilities": [
+          "Counterspell",
+          "Flight"
+        ]
+      },
+      {
+        "level": 4,
+        "abilities": [
+          "Blink Out",
+          "Preservation Blast"
+        ]
+      },
+      {
+        "level": 5,
+        "abilities": [
+          "Chain Lightning",
+          "Premonition"
+        ]
+      },
+      {
+        "level": 6,
+        "abilities": [
+          "Rift Walker",
+          "Telekinesis"
+        ]
+      },
+      {
+        "level": 7,
+        "abilities": [
+          "Arcana-Touched",
+          "Cloaking Blast"
+        ]
+      },
+      {
+        "level": 8,
+        "abilities": [
+          "Arcane Reflection",
+          "Confusing Aura"
+        ]
+      },
+      {
+        "level": 9,
+        "abilities": [
+          "Earthquake",
+          "Sensory Projection"
+        ]
+      },
+      {
+        "level": 10,
+        "abilities": [
+          "Adjust Reality",
+          "Falling Sky"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blade",
+    "description": "Blade is the domain of **weapon mastery.** Whether by steel, bow, or perhaps a more specialized arm, those who follow this path have the skill to cut short the lives of others. Wielders of Blade dedicate themselves to achieving inexorable power over death. The Blade domain can be accessed by the **Assassin**, **Guardian**, and **Warrior** classes.",
+    "cards": [
+      {
+        "level": 1,
+        "abilities": [
+          "Get Back Up",
+          "Not Good Enough",
+          "Whirlwind"
+        ]
+      },
+      {
+        "level": 2,
+        "abilities": [
+          "A Soldier's Bond",
+          "Reckless"
+        ]
+      },
+      {
+        "level": 3,
+        "abilities": [
+          "Scramble",
+          "Versatile Fighter"
+        ]
+      },
+      {
+        "level": 4,
+        "abilities": [
+          "Deadly Focus",
+          "Fortified Armor"
+        ]
+      },
+      {
+        "level": 5,
+        "abilities": [
+          "Champion's Edge",
+          "Vitality"
+        ]
+      },
+      {
+        "level": 6,
+        "abilities": [
+          "Battle-Hardened",
+          "Rage Up"
+        ]
+      },
+      {
+        "level": 7,
+        "abilities": [
+          "Blade-Touched",
+          "Glancing Blow"
+        ]
+      },
+      {
+        "level": 8,
+        "abilities": [
+          "Battle Cry",
+          "Frenzy"
+        ]
+      },
+      {
+        "level": 9,
+        "abilities": [
+          "Gore and Glory",
+          "Reaper's Strike"
+        ]
+      },
+      {
+        "level": 10,
+        "abilities": [
+          "Battle Monster",
+          "Onslaught"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Bone",
+    "description": "Bone is the domain of **tactics and the body.** Practitioners of this domain have an uncanny control over their own physical abilities and an eye for predicting the behaviors of others in combat. Adherents to Bone gain an unparalleled understanding of bodies and their movements. The Bone domain can be accessed by the **Brawler**, **Ranger**, and **Warrior** classes.",
+    "cards": [
+      {
+        "level": 1,
+        "abilities": [
+          "Deft Maneuvers",
+          "I See It Coming",
+          "Untouchable"
+        ]
+      },
+      {
+        "level": 2,
+        "abilities": [
+          "Ferocity",
+          "Strategic Approach"
+        ]
+      },
+      {
+        "level": 3,
+        "abilities": [
+          "Brace",
+          "Tactician"
+        ]
+      },
+      {
+        "level": 4,
+        "abilities": [
+          "Boost",
+          "Redirect"
+        ]
+      },
+      {
+        "level": 5,
+        "abilities": [
+          "Know Thy Enemy",
+          "Signature Move"
+        ]
+      },
+      {
+        "level": 6,
+        "abilities": [
+          "Rapid Riposte",
+          "Recovery"
+        ]
+      },
+      {
+        "level": 7,
+        "abilities": [
+          "Bone-Touched",
+          "Cruel Precision"
+        ]
+      },
+      {
+        "level": 8,
+        "abilities": [
+          "Breaking Blow",
+          "Wrangle"
+        ]
+      },
+      {
+        "level": 9,
+        "abilities": [
+          "On the Brink",
+          "Splintering Strike"
+        ]
+      },
+      {
+        "level": 10,
+        "abilities": [
+          "Deathrun",
+          "Swift Step"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Codex",
+    "description": "Codex is the domain of **intensive magical study.** Those who seek magical knowledge turn to the equations of power recorded in books, written on scrolls, etched into walls, or tattooed on bodies. Codex offers a commanding and versatile understanding of magic to devotees who pursue knowledge beyond the boundaries of common wisdom. The Codex domain can be accessed by the **Bard** and **Wizard** classes.",
+    "cards": [
+      {
+        "level": 1,
+        "abilities": [
+          "Book of Ava",
+          "Book of Illiat",
+          "Book of Tyfar"
+        ]
+      },
+      {
+        "level": 2,
+        "abilities": [
+          "Book of Sitil",
+          "Book of Vagras"
+        ]
+      },
+      {
+        "level": 3,
+        "abilities": [
+          "Book of Korvax",
+          "Book of Norai"
+        ]
+      },
+      {
+        "level": 4,
+        "abilities": [
+          "Book of Exota",
+          "Book of Grynn"
+        ]
+      },
+      {
+        "level": 5,
+        "abilities": [
+          "Manifest Wall",
+          "Teleport"
+        ]
+      },
+      {
+        "level": 6,
+        "abilities": [
+          "Banish",
+          "Sigil of Retribution"
+        ]
+      },
+      {
+        "level": 7,
+        "abilities": [
+          "Book of Homet",
+          "Codex-Touched"
+        ]
+      },
+      {
+        "level": 8,
+        "abilities": [
+          "Book of Vyola",
+          "Safe Haven"
+        ]
+      },
+      {
+        "level": 9,
+        "abilities": [
+          "Book of Ronin",
+          "Disintegration Wave"
+        ]
+      },
+      {
+        "level": 10,
+        "abilities": [
+          "Book of Yarrow",
+          "Transcendent Union"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dread",
+    "description": "Dread is the domain of **nightmares and fear.** Those who choose this path can call forth monstrosities, enfeeble their foes, and channel terrifying magic to destroy their enemies. Dread grants its adherents power over forces most are too afraid to employ. The Dread domain can be accessed by the **Warlock** and **Witch** classes.",
+    "cards": [
+      {
+        "level": 1,
+        "abilities": [
+          "Blighting Strike",
+          "Umbral Veil",
+          "Voice of Dread"
+        ]
+      },
+      {
+        "level": 2,
+        "abilities": [
+          "Hideous Retribution",
+          "Siphon Essence"
+        ]
+      },
+      {
+        "level": 3,
+        "abilities": [
+          "Shared Trauma",
+          "Terrify"
+        ]
+      },
+      {
+        "level": 4,
+        "abilities": [
+          "Chains of Affliction",
+          "Summon Horror"
+        ]
+      },
+      {
+        "level": 5,
+        "abilities": [
+          "Dire Strike",
+          "Spectral Mist"
+        ]
+      },
+      {
+        "level": 6,
+        "abilities": [
+          "Darkfire",
+          "Jump Scare"
+        ]
+      },
+      {
+        "level": 7,
+        "abilities": [
+          "Dread-Touched",
+          "Wall of Hunger"
+        ]
+      },
+      {
+        "level": 8,
+        "abilities": [
+          "Dark Army",
+          "Eldritch Flesh"
+        ]
+      },
+      {
+        "level": 9,
+        "abilities": [
+          "Damnation",
+          "Savor the Anguish"
+        ]
+      },
+      {
+        "level": 10,
+        "abilities": [
+          "Avatar of Terror",
+          "Invoke Torment"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Grace",
+    "description": "Grace is the domain of **charisma.** Through rapturous storytelling, charming spells, or a shroud of lies, those who channel this power define the realities of their adversaries, bending perception to their will. Grace offers its wielders raw magnetism and mastery over language. The Grace domain can be accessed by the **Bard**, **Rogue**, and **Warlock** classes",
+    "cards": [
+      {
+        "level": 1,
+        "abilities": [
+          "Deft Deceiver",
+          "Enrapture",
+          "Inspirational Words"
+        ]
+      },
+      {
+        "level": 2,
+        "abilities": [
+          "Tell No Lies",
+          "Troublemaker"
+        ]
+      },
+      {
+        "level": 3,
+        "abilities": [
+          "Hypnotic Shimmer",
+          "Invisibility"
+        ]
+      },
+      {
+        "level": 4,
+        "abilities": [
+          "Soothing Speech",
+          "Through Your Eyes"
+        ]
+      },
+      {
+        "level": 5,
+        "abilities": [
+          "Thought Delver",
+          "Words of Discord"
+        ]
+      },
+      {
+        "level": 6,
+        "abilities": [
+          "Never Upstaged",
+          "Share the Burden"
+        ]
+      },
+      {
+        "level": 7,
+        "abilities": [
+          "Endless Charisma",
+          "Grace-Touched"
+        ]
+      },
+      {
+        "level": 8,
+        "abilities": [
+          "Astral Projection",
+          "Mass Enrapture"
+        ]
+      },
+      {
+        "level": 9,
+        "abilities": [
+          "Copycat",
+          "Master of the Craft"
+        ]
+      },
+      {
+        "level": 10,
+        "abilities": [
+          "Encore",
+          "Notorious"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Midnight",
+    "description": "Midnight is the domain of **shadows and secrecy.** Whether by clever tricks, deft magic, or the cloak of night, those who channel these forces practice the art of obscurity and can uncover sequestered treasures. Midnight offers practitioners the power to control and create enigmas. The Midnight domain can be accessed by the **Assassin**, **Rogue**, and **Sorcerer** classes.",
+    "cards": [
+      {
+        "level": 1,
+        "abilities": [
+          "Pick and Pull",
+          "Rain of Blades",
+          "Uncanny Disguise"
+        ]
+      },
+      {
+        "level": 2,
+        "abilities": [
+          "Midnight Spirit",
+          "Shadowbind"
+        ]
+      },
+      {
+        "level": 3,
+        "abilities": [
+          "Chokehold",
+          "Veil of Night"
+        ]
+      },
+      {
+        "level": 4,
+        "abilities": [
+          "Stealth Expertise",
+          "Glyph of Nightfall"
+        ]
+      },
+      {
+        "level": 5,
+        "abilities": [
+          "Hush",
+          "Phantom Retreat"
+        ]
+      },
+      {
+        "level": 6,
+        "abilities": [
+          "Dark Whispers",
+          "Mass Disguise"
+        ]
+      },
+      {
+        "level": 7,
+        "abilities": [
+          "Midnight-Touched",
+          "Vanishing Dodge"
+        ]
+      },
+      {
+        "level": 8,
+        "abilities": [
+          "Shadowhunter",
+          "Spellcharge"
+        ]
+      },
+      {
+        "level": 9,
+        "abilities": [
+          "Night Terror",
+          "Twilight Toll"
+        ]
+      },
+      {
+        "level": 10,
+        "abilities": [
+          "Eclipse",
+          "Specter of the Dark"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sage",
+    "description": "Sage is the domain **of the natural world.** Those who walk this path tap into the unfettered power of the earth and its creatures to unleash raw magic. Sage grants its adherents the vitality of a blooming flower and the ferocity of a ravenous predator. The Sage domain can be accessed by the **Druid**, **Ranger**, and **Witch** classes.",
+    "cards": [
+      {
+        "level": 1,
+        "abilities": [
+          "Gifted Tracker",
+          "Nature's Tongue",
+          "Vicious Entangle"
+        ]
+      },
+      {
+        "level": 2,
+        "abilities": [
+          "Conjure Swarm",
+          "Natural Familiar"
+        ]
+      },
+      {
+        "level": 3,
+        "abilities": [
+          "Corrosive Projectile",
+          "Towering Stalk"
+        ]
+      },
+      {
+        "level": 4,
+        "abilities": [
+          "Death Grip",
+          "Healing Field"
+        ]
+      },
+      {
+        "level": 5,
+        "abilities": [
+          "Thorn Skin",
+          "Wild Fortress"
+        ]
+      },
+      {
+        "level": 6,
+        "abilities": [
+          "Conjured Steeds",
+          "Forager"
+        ]
+      },
+      {
+        "level": 7,
+        "abilities": [
+          "Sage-Touched",
+          "Wild Surge"
+        ]
+      },
+      {
+        "level": 8,
+        "abilities": [
+          "Forest Sprites",
+          "Rejuvenation Barrier"
+        ]
+      },
+      {
+        "level": 9,
+        "abilities": [
+          "Fane of the Wilds",
+          "Plant Dominion"
+        ]
+      },
+      {
+        "level": 10,
+        "abilities": [
+          "Force of Nature",
+          "Tempest"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Splendor",
+    "description": "Splendor is the domain of **life.** Through this magic, followers gain the ability to heal and, to an extent, control death. Splendor offers its disciples the magnificent ability to both give and end life. The Splendor domain can be accessed by the **Seraph** and **Wizard** classes.",
+    "cards": [
+      {
+        "level": 1,
+        "abilities": [
+          "Bolt Beacon",
+          "Mending Touch",
+          "Reassurance"
+        ]
+      },
+      {
+        "level": 2,
+        "abilities": [
+          "Final Words",
+          "Healing Hands"
+        ]
+      },
+      {
+        "level": 3,
+        "abilities": [
+          "Second Wind",
+          "Voice of Reason"
+        ]
+      },
+      {
+        "level": 4,
+        "abilities": [
+          "Divination",
+          "Life Ward"
+        ]
+      },
+      {
+        "level": 5,
+        "abilities": [
+          "Shape Material",
+          "Smite"
+        ]
+      },
+      {
+        "level": 6,
+        "abilities": [
+          "Restoration",
+          "Zone of Protection"
+        ]
+      },
+      {
+        "level": 7,
+        "abilities": [
+          "Healing Strike",
+          "Splendor-Touched"
+        ]
+      },
+      {
+        "level": 8,
+        "abilities": [
+          "Shield Aura",
+          "Stunning Sunlight"
+        ]
+      },
+      {
+        "level": 9,
+        "abilities": [
+          "Overwhelming Aura",
+          "Salvation Beam"
+        ]
+      },
+      {
+        "level": 10,
+        "abilities": [
+          "Invigoration",
+          "Resurrection"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Valor",
+    "description": "Valor is the domain of **protection.** Whether through attack or defense, those who choose this discipline channel formidable strength to protect their allies in battle. Valor offers great power to those who raise their shields in defense of others. The Valor domain can be accessed by the **Brawler**, **Guardian**, and **Seraph** classes.",
+    "cards": [
+      {
+        "level": 1,
+        "abilities": [
+          "Bare Bones",
+          "Forceful Push",
+          "I Am Your Shield"
+        ]
+      },
+      {
+        "level": 2,
+        "abilities": [
+          "Body Basher",
+          "Bold Presence"
+        ]
+      },
+      {
+        "level": 3,
+        "abilities": [
+          "Critical Inspiration",
+          "Lean on Me"
+        ]
+      },
+      {
+        "level": 4,
+        "abilities": [
+          "Goad Them on",
+          "Support Tank"
+        ]
+      },
+      {
+        "level": 5,
+        "abilities": [
+          "Armorer",
+          "Rousing Strike"
+        ]
+      },
+      {
+        "level": 6,
+        "abilities": [
+          "Inevitable",
+          "Rise Up"
+        ]
+      },
+      {
+        "level": 7,
+        "abilities": [
+          "Shrug It Off",
+          "Valor-Touched"
+        ]
+      },
+      {
+        "level": 8,
+        "abilities": [
+          "Full Surge",
+          "Ground Pound"
+        ]
+      },
+      {
+        "level": 9,
+        "abilities": [
+          "Hold the Line",
+          "Lead by Example"
+        ]
+      },
+      {
+        "level": 10,
+        "abilities": [
+          "Unbreakable",
+          "Unyielding Armor"
+        ]
+      }
+    ]
+  }
+]
