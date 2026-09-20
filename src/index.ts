@@ -1,6 +1,7 @@
 // Public entry point of the published package: common values/types plus the
 // parsed-data types. Runtime parser code is deliberately not exported.
 export * from "./common.ts";
+export * from "./character.ts";
 export type * from "./parsers/ability.ts";
 export type * from "./parsers/adversary.ts";
 export type * from "./parsers/ancestry.ts";

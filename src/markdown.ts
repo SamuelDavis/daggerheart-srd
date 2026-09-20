@@ -187,23 +187,29 @@ export function tier(s: string): Tier {
 }
 
 export const DAMAGE_WITH_TYPE =
-  /^(\d*d\d+(?:[+-]\d+)?|\d+)\s+(phy or mag|direct phy|[\w/]+)$/;
+  /^(\d*d\d+(?:[+-]\d+)?|\d+)\s+((?:direct\s+)?[a-z]+(?:\/(?:direct\s+)?[a-z]+)*)$/;
 
-/** "d6+7 mag" -> { damage: "d6+7", damageType: "mag" } */
+/**
+ * "d6+7 mag" -> { damage: "d6+7", damageType: ["mag"] }
+ * "d8 phy/mag" -> { damage: "d8", damageType: ["phy", "mag"] }
+ * "40 direct phy" -> { damage: "40", damageType: ["direct phy"] }
+ */
 export function damageWithType(
   s: string,
-): { damage: Damage; damageType: DamageType } {
+): { damage: Damage; damageType: DamageType[] } {
   const m = matchOrThrow(DAMAGE_WITH_TYPE, s.trim(), "damage");
   return {
     damage: m[1] as Damage,
-    damageType: oneOf(damageTypes, m[2], "damage type"),
+    damageType: m[2].split("/").map((t) =>
+      oneOf(damageTypes, t.replace(/\s+/g, " "), "damage type")
+    ),
   };
 }
 
-/** "8/15" or "11 / 23" */
+/** "8/15" or "11 / 23" -> [8, 15] */
 export function thresholds(s: string): ArmorThresholds {
   const m = matchOrThrow(/^(\d+)\s*\/\s*(\d+)$/, s.trim(), "thresholds");
-  return { major: Number(m[1]), severe: Number(m[2]) };
+  return [Number(m[1]), Number(m[2])];
 }
 
 /** "8/15", "4/None" or "None". */
@@ -279,4 +285,20 @@ export function typedFeatures(lines: string[]): TypedFeature[] {
 /** Link texts, e.g. `[A](x.md) & [B](y.md)` -> ["A", "B"]. */
 export function linkTexts(s: string): string[] {
   return [...s.matchAll(/\[([^\]]+)\]/g)].map((m) => m[1]);
+}
+
+/**
+ * Loot table rolls from the README, keyed by linked file path
+ * (e.g. "items/Mythic Dust Recipe.md"). Rolls repeat across the Core and
+ * Additional tables, but each file appears in exactly one row.
+ */
+export function lootRolls(readme: string): Map<string, number> {
+  const rolls = new Map<string, number>();
+  for (const line of readme.split("\n")) {
+    const m =
+      /^\|\s*(\d+)\s*\|\s*\[[^\]]+\]\(((?:items|consumables)\/[^)]+\.md)\)/
+        .exec(line);
+    if (m) rolls.set(decodeURIComponent(m[2]), Number(m[1]));
+  }
+  return rolls;
 }

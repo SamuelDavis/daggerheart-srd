@@ -1,0 +1,109 @@
+// A player character as recorded on a character sheet. Hard-coded from
+// CHARACTER_CREATION.md and the SRD README; references the parsed-data types.
+import type { DomainName, NamedFeature, Trait } from "./common.ts";
+import type { Ability } from "./parsers/ability.ts";
+import type { Ancestry } from "./parsers/ancestry.ts";
+import type { Armor } from "./parsers/armor.ts";
+import type { Beastform } from "./parsers/beastform.ts";
+import type { Class } from "./parsers/class.ts";
+import type { Community } from "./parsers/community.ts";
+import type { Consumable } from "./parsers/consumable.ts";
+import type { Item } from "./parsers/item.ts";
+import type { Subclass } from "./parsers/subclass.ts";
+import type { Transformation } from "./parsers/transformation.ts";
+import type { Weapon } from "./parsers/weapon.ts";
+
+export const levels = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] as const;
+export type Level = (typeof levels)[number];
+
+/** Modifiers assigned to the six traits, in any order, at character creation. */
+export const startingTraitModifiers = [2, 1, 1, 0, 0, -1] as const;
+export const startingHope = 2;
+export const maxHope = 6;
+export const startingStress = 6;
+/** HP and Stress slots can be increased by level-ups up to this many. */
+export const maxHitPointSlots = 12;
+export const maxStressSlots = 12;
+export const startingProficiency = 1;
+/** Experiences a PC starts with, each at this bonus. */
+export const startingExperiences = 2;
+export const startingExperienceBonus = 2;
+/** Domain cards that can be active in the loadout at once; the rest are in the vault. */
+export const maxLoadout = 5;
+
+/** `[current, maximum]` */
+export type Resource = [current: number, maximum: number];
+
+export type Experience = { name: string; bonus: number };
+
+/** Gold on the character sheet. */
+export type Gold = { handfuls: number; bags: number; chests: number };
+
+/** Anything in the inventory that isn't an SRD item (a torch, rope, ...). */
+export type CustomItem = { name: string; description?: string };
+
+/**
+ * Either a single ancestry, or a Mixed Ancestry: the first-listed feature of
+ * one ancestry and the second-listed feature of another.
+ */
+export type Heritage =
+  | { ancestry: Ancestry }
+  | {
+    mixedAncestry: {
+      first: { ancestry: Ancestry["name"]; feature: NamedFeature };
+      second: { ancestry: Ancestry["name"]; feature: NamedFeature };
+    };
+  };
+
+/** A class gained by multiclassing (level 5+). */
+export type Multiclass = {
+  class: Class;
+  subclass: Subclass;
+  /** The one of the class's domains gained access to. */
+  domain: DomainName;
+};
+
+export type PlayerCharacter = {
+  name: string;
+  pronouns: string;
+  /** Free-text character description (appearance, demeanor, ...). */
+  description: string;
+  level: Level;
+
+  class: Class;
+  subclass: Subclass;
+  multiclass: Multiclass | null;
+  heritage: Heritage;
+  community: Community;
+  transformations: Transformation[];
+  /** The Beastform currently taken, if any. */
+  beastform: Beastform | null;
+
+  /** Trait modifiers, e.g. { agility: 2, strength: 1, ... }. */
+  traits: Record<Trait, number>;
+  evasion: number;
+  hitPoints: Resource;
+  stress: Resource;
+  hope: Resource;
+  proficiency: number;
+  /** Armor slots as `[marked, total]`, total being the Armor Score. */
+  armorSlots: Resource;
+
+  /** Equipped armor; null if unarmored. */
+  armor: Armor | null;
+  /** Active weapons: a two-handed primary, or a one-handed primary and secondary. */
+  weapons: Weapon[];
+  inventory: (Item | Consumable | CustomItem)[];
+  gold: Gold;
+
+  experiences: Experience[];
+  /** Domain cards in the loadout (at most `maxLoadout`). */
+  loadout: Ability[];
+  /** Acquired domain cards not currently in the loadout. */
+  vault: Ability[];
+
+  /** Answers to the class's background questions, in the same order. */
+  background: string[];
+  /** Relationships to the other PCs. */
+  connections: string[];
+};

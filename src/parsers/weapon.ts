@@ -32,7 +32,7 @@ export type Weapon = {
   trait: Trait;
   range: Range;
   damage: Damage;
-  damageType: DamageType;
+  damageType: DamageType[];
   burden: Burden;
   /** null for weapons with no feature. */
   feature: NamedFeature | null;

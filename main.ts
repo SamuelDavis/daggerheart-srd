@@ -1,4 +1,5 @@
 import { join, resolve } from "@std/path";
+import { lootRolls } from "./src/markdown.ts";
 import { parsers } from "./src/parsers/mod.ts";
 
 const USAGE =
@@ -21,10 +22,14 @@ async function main(args: string[]): Promise<number> {
   }
   typeDirs.sort();
 
+  const rolls = lootRolls(
+    await Deno.readTextFile(join(inputDir, "README.md")).catch(() => ""),
+  );
+
   // Type directories are independent, so process them concurrently. Each task
   // returns its output rather than printing, so the log order stays deterministic.
   const results = await Promise.all(
-    typeDirs.map((dir) => processDir(dir, inputDir, outputDir)),
+    typeDirs.map((dir) => processDir(dir, inputDir, outputDir, rolls)),
   );
 
   for (const r of results) {
@@ -40,6 +45,7 @@ async function processDir(
   dir: string,
   inputDir: string,
   outputDir: string,
+  rolls: Map<string, number>,
 ): Promise<DirResult> {
   const parse = parsers[dir];
   if (!parse) {
@@ -55,7 +61,10 @@ async function processDir(
   // Files are independent too; allSettled keeps every per-file error.
   const settled = await Promise.allSettled(
     files.map(async (file) =>
-      parse(await Deno.readTextFile(join(inputDir, dir, file)))
+      parse(await Deno.readTextFile(join(inputDir, dir, file)), {
+        path: `${dir}/${file}`,
+        rolls,
+      })
     ),
   );
 

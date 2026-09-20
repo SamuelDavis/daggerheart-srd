@@ -55,6 +55,7 @@ await run(Deno.execPath(), [
 ]);
 for await (const f of Deno.readDir(join(out, "dist"))) {
   const keep = f.name === "index.js" || f.name === "common.js" ||
+    f.name === "character.js" ||
     f.name.endsWith(".d.ts") || f.isDirectory;
   if (!keep) await Deno.remove(join(out, "dist", f.name));
 }
