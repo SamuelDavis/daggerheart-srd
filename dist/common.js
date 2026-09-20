@@ -15,14 +15,7 @@ export const ranges = [
     "Far",
     "Very Far",
 ];
-// Kept as written in the SRD, including the few dual-type values.
-export const damageTypes = [
-    "phy",
-    "mag",
-    "phy/mag",
-    "phy or mag",
-    "direct phy",
-];
+export const damageTypes = ["phy", "mag", "direct phy"];
 export const burdens = ["One-Handed", "Two-Handed"];
 export const categories = ["Primary", "Secondary"];
 export const featureTypes = [

@@ -17,7 +17,7 @@ export type Adversary = {
         name: string;
         range: Range;
         damage: Damage;
-        damageType: DamageType;
+        damageType: DamageType[];
     };
     experiences: {
         name: string;

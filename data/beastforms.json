@@ -16,7 +16,9 @@
       "trait": "agility",
       "range": "Melee",
       "damage": "d4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "deceive",
@@ -51,7 +53,9 @@
       "trait": "agility",
       "range": "Melee",
       "damage": "d10+6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "attack",
@@ -86,7 +90,9 @@
       "trait": "agility",
       "range": "Melee",
       "damage": "d4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "navigate",
@@ -121,7 +127,9 @@
       "trait": "strength",
       "range": "Melee",
       "damage": "d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "dig",
@@ -155,7 +163,9 @@
       "trait": "agility",
       "range": "Melee",
       "damage": "d10+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "locate",
@@ -191,7 +201,9 @@
       "trait": "strength",
       "range": "Melee",
       "damage": "d12+8",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "attack",
@@ -225,7 +237,9 @@
       "trait": "finesse",
       "range": "Melee",
       "damage": "d8+6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "deceive",
@@ -260,7 +274,9 @@
       "trait": "instinct",
       "range": "Melee",
       "damage": "d6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "climb",
@@ -311,7 +327,9 @@
       "trait": "strength",
       "range": "Melee",
       "damage": "d10+8",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [],
     "features": [
@@ -338,7 +356,9 @@
       "trait": "strength",
       "range": "Melee",
       "damage": "d12+12",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "locate",
@@ -378,7 +398,9 @@
       "trait": "instinct",
       "range": "Melee",
       "damage": "d10+7",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "attack",
@@ -413,7 +435,9 @@
       "trait": "agility",
       "range": "Melee",
       "damage": "d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "leap",
@@ -449,7 +473,9 @@
       "trait": "finesse",
       "range": "Melee",
       "damage": "d10+11",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "attack",
@@ -502,7 +528,9 @@
       "trait": "strength",
       "range": "Melee",
       "damage": "d12+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [],
     "features": [
@@ -529,7 +557,9 @@
       "trait": "agility",
       "range": "Melee",
       "damage": "d6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "leap",
@@ -564,7 +594,9 @@
       "trait": "strength",
       "range": "Melee",
       "damage": "d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "attack",
@@ -599,7 +631,9 @@
       "trait": "instinct",
       "range": "Melee",
       "damage": "d8+6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "attack",
@@ -634,7 +668,9 @@
       "trait": "strength",
       "range": "Melee",
       "damage": "d10+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "navigate",
@@ -668,7 +704,9 @@
       "trait": "finesse",
       "range": "Melee",
       "damage": "d6+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "attack",
@@ -703,7 +741,9 @@
       "trait": "finesse",
       "range": "Very Close",
       "damage": "d8+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "climb",
@@ -737,7 +777,9 @@
       "trait": "strength",
       "range": "Melee",
       "damage": "d12+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "attack",
@@ -773,7 +815,9 @@
       "trait": "finesse",
       "range": "Melee",
       "damage": "d4+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "advantages": [
       "deceive",

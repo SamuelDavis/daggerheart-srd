@@ -2,601 +2,721 @@
   {
     "name": "Airblade Charm",
     "type": "Item",
+    "roll": 35,
     "description": "You can attach this charm to a weapon with a Melee range. Three times per rest, you can activate the charm and attack a target within Close range."
   },
   {
     "name": "Alistair's Torch",
     "type": "Item",
+    "roll": 4,
     "description": "You can light this magic torch at will. The flame's light fills a much larger space than it should, enough to illuminate a cave bright as day."
   },
   {
     "name": "Arcane Cloak",
     "type": "Item",
+    "roll": 7,
     "description": "A creature with a Spellcast trait wearing this cloak can adjust its color, texture, and size at will."
   },
   {
     "name": "Arcane Prism",
     "type": "Item",
+    "roll": 17,
     "description": "Position this prism in a location of your choosing and activate it. All allies within Close range of it gain a +1 bonus to their Spellcast Rolls. While activated, the prism can't be moved. Once the prism is deactivated, it can't be activated again until your next long rest."
   },
   {
     "name": "Attune Relic",
     "type": "Item",
+    "roll": 44,
     "description": "You gain a +1 bonus to your Instinct. You can only carry one relic."
   },
   {
     "name": "Augur's Relic",
     "type": "Item",
+    "roll": 60,
     "description": "Once per long rest, you can activate your Hope feature without spending Hope. You can carry only one relic."
   },
   {
     "name": "Bag of Ficklesand",
     "type": "Item",
+    "roll": 31,
     "description": "You can convince this small bag of sand to be much heavier or lighter with a successful Presence Roll (10). Additionally, on a successful Finesse Roll (10), you can blow a bit of sand into a target's face to make them temporarily _Vulnerable_."
   },
   {
     "name": "Ball Bearings",
     "type": "Item",
+    "roll": 3,
     "description": "This pouch contains perfectly smooth metal spheres."
   },
   {
     "name": "Belt of Unity",
     "type": "Item",
+    "roll": 60,
     "description": "Once per session, you can spend 5 Hope to lead a Tag Team Roll with three PCs instead of two."
   },
   {
     "name": "Blackwing Quill",
     "type": "Item",
+    "roll": 9,
     "description": "This writing quill never runs out of ink or needs to be sharpened."
   },
   {
     "name": "Bloodstone",
     "type": "Item",
+    "roll": 25,
     "description": "You can attach this stone to a weapon that doesn't already have a feature. The weapon gains the following feature. **_Brutal:_** When you roll the maximum value on a damage die, roll an additional damage die."
   },
   {
     "name": "Bolster Relic",
     "type": "Item",
+    "roll": 42,
     "description": "You gain a +1 bonus to your Strength. You can only carry one relic."
   },
   {
     "name": "Boots of Supple Mystique",
     "type": "Item",
+    "roll": 18,
     "description": "While wearing these boots, you don't leave tracks or footprints."
   },
   {
     "name": "Box of Dragon Dust",
     "type": "Item",
+    "roll": 4,
     "description": "This snuffbox is filled with combustible powder."
   },
   {
     "name": "Box of Many Goods",
     "type": "Item",
+    "roll": 34,
     "description": "Once per long rest, you can open this small box and roll a d12. On a result of 1-6, it's empty. On a result of 7-10, it contains one random common consumable. On a result of 11-12, it contains two random common consumables."
   },
   {
     "name": "Calming Pendant",
     "type": "Item",
+    "roll": 29,
     "description": "When you would mark your last Stress, roll a d6. On a result of 5 or higher, don't mark it."
   },
   {
     "name": "Caltrops",
     "type": "Item",
+    "roll": 1,
     "description": "You can spread these caltrops in a Very Close area around you. A creature hastening through that area must mark a Stress."
   },
   {
     "name": "Charging Quiver",
     "type": "Item",
+    "roll": 3,
     "description": "When you succeed on an attack with an arrow stored in this quiver, gain a bonus to the damage roll equal to your current tier."
   },
   {
     "name": "Charm Relic",
     "type": "Item",
+    "roll": 45,
     "description": "You gain a +1 bonus to your Presence. You can only carry one relic."
   },
   {
     "name": "Cheater's Coin",
     "type": "Item",
+    "roll": 28,
     "description": "When you flip this coin, you can spend a Hope to determine which side it lands on."
   },
   {
     "name": "Clay Companion",
     "type": "Item",
+    "roll": 50,
     "description": "When you sculpt this ball of clay into a clay animal companion, it behaves as that animal. For example, a clay spider can spin clay webs, while a clay bird can fly. The clay companion retains memory and identity across different shapes, but they can adopt new mannerisms with each form."
   },
   {
     "name": "Collapsible Pole",
     "type": "Item",
+    "roll": 8,
     "description": "You can break down this 18-foot pole into six interlinked 3-foot segments."
   },
   {
     "name": "Collar of Ascendancy",
     "type": "Item",
+    "roll": 49,
     "description": "An animal who wears this collar gains the ability to speak and understand common speech."
   },
   {
     "name": "Communion Relic",
     "type": "Item",
+    "roll": 59,
     "description": "Once per rest, you can spend a Hope to use an ally's Experience as if it were your own. You can carry only one relic."
   },
   {
     "name": "Companion Case",
     "type": "Item",
+    "roll": 13,
     "description": "This case can fit a small animal companion. While the companion is inside, the animal and case are immune to all damage and harmful effects."
   },
   {
     "name": "Control Relic",
     "type": "Item",
+    "roll": 43,
     "description": "You gain a +1 bonus to your Finesse. You can only carry one relic."
   },
   {
     "name": "Corrector Sprite",
     "type": "Item",
+    "roll": 21,
     "description": "This tiny sprite sits in the curve of your ear canal and whispers helpful advice during combat. Once per short rest, you can gain advantage on an attack roll."
   },
   {
     "name": "Crucible Frames",
     "type": "Item",
+    "roll": 42,
     "description": "These eyeglasses reveal weak points in objects and creatures. Three times per rest, you can spend a Hope to gain advantage on an attack roll."
   },
   {
     "name": "Dagginae's Obsidian Slate",
     "type": "Item",
+    "roll": 32,
     "description": "This wafer-thin sheet of volcanic glass is used by archivists to keep notes. Any information etched onto its surface disappears but can be recalled via a command you set."
   },
   {
     "name": "Dual Flask",
     "type": "Item",
+    "roll": 30,
     "description": "This flask can hold two different liquids. You can swap between them by flipping a small switch on the flask's side."
   },
   {
     "name": "Eclipse Coin",
     "type": "Item",
+    "roll": 34,
     "description": "Once per rest, flip a coin. On heads, you gain a +1 bonus to attack rolls until your next successful attack. On tails, you gain +1 to your Evasion until an attack fails against you."
   },
   {
     "name": "Elusive Amulet",
     "type": "Item",
+    "roll": 38,
     "description": "Once per long rest, you can activate this amulet to become _Hidden_ until you move. While _Hidden_ in this way, you remain unseen even if an adversary moves to where they would normally see you."
   },
   {
     "name": "Elven Spyglass",
     "type": "Item",
+    "roll": 6,
     "description": "You can use this spyglass to magnify your vision a hundredfold."
   },
   {
     "name": "Empty Chest",
     "type": "Item",
+    "roll": 12,
     "description": "This magical chest appears empty. When you speak a specific trigger word or action and open the chest, you can see the items stored within it."
   },
   {
     "name": "Enchanter's Loupe",
     "type": "Item",
+    "roll": 26,
     "description": "You can use this loupe to see through illusions and enchantments."
   },
   {
     "name": "Enlighten Relic",
     "type": "Item",
+    "roll": 46,
     "description": "You gain a +1 bonus to your Knowledge. You can only carry one relic."
   },
   {
     "name": "Escher's Mirrorball",
     "type": "Item",
+    "roll": 27,
     "description": "Once per long rest, you can command this fist-sized silver orb to capture an omnidirectional image of its surroundings on its surface. This image lasts until your next long rest."
   },
   {
     "name": "Fire Jar",
     "type": "Item",
+    "roll": 9,
     "description": "You can pour out the strange liquid contents of this jar to instantly produce fire. The contents regenerate when you take a long rest."
   },
   {
     "name": "Flickerfly Pendant",
     "type": "Item",
+    "roll": 48,
     "description": "While you carry this pendant, your weapons with a Melee range that deal physical damage have a gossamer sheen and can attack targets within Very Close range."
   },
   {
     "name": "Force Disc",
     "type": "Item",
+    "roll": 45,
     "description": "This shimmering two-dimensional disc of magical force has a 4-foot diameter and is magically tethered to a pebble. The disc always floats 3 feet north of, and at the same elevation as, the pebble. The pebble has a mass equal to one-hundredth of the total mass carried by the disc."
   },
   {
     "name": "Furball Bag",
     "type": "Item",
+    "roll": 24,
     "description": "Once per rest, you can produce 2d20 harmless, cat-sized fur creatures of indeterminate origin and species from this bag."
   },
   {
     "name": "Gadiman's Backpack",
     "type": "Item",
+    "roll": 33,
     "description": "Once per rest, you can spend a Hope to conjure a mundane item up to a cubic foot in size inside this satchel."
   },
   {
     "name": "Gecko Gloves",
     "type": "Item",
+    "roll": 22,
     "description": "You can climb up vertical surfaces and across ceilings."
   },
   {
     "name": "Gem of Alacrity",
     "type": "Item",
+    "roll": 53,
     "description": "You can attach this gem to a weapon, allowing you to use your Agility when making an attack with that weapon."
   },
   {
     "name": "Gem of Audacity",
     "type": "Item",
+    "roll": 57,
     "description": "You can attach this gem to a weapon, allowing you to use your Presence when making an attack with that weapon."
   },
   {
     "name": "Gem of Insight",
     "type": "Item",
+    "roll": 56,
     "description": "You can attach this gem to a weapon, allowing you to use your Instinct when making an attack with that weapon."
   },
   {
     "name": "Gem of Might",
     "type": "Item",
+    "roll": 54,
     "description": "You can attach this gem to a weapon, allowing you to use your Strength when making an attack with that weapon."
   },
   {
     "name": "Gem of Precision",
     "type": "Item",
+    "roll": 55,
     "description": "You can attach this gem to a weapon, allowing you to use your Finesse when making an attack with that weapon."
   },
   {
     "name": "Gem of Sagacity",
     "type": "Item",
+    "roll": 58,
     "description": "You can attach this gem to a weapon, allowing you to use your Knowledge when making an attack with that weapon."
   },
   {
     "name": "Ghoulskin Gloves",
     "type": "Item",
+    "roll": 36,
     "description": "When you attack with a physical weapon while wearing these gloves, the damage is considered both physical and magic."
   },
   {
     "name": "Glamour Stone",
     "type": "Item",
+    "roll": 11,
     "description": "Activate this pebble-sized stone to memorize the appearance of someone you can see. Spend a Hope to magically recreate this guise on yourself as an illusion."
   },
   {
     "name": "Glider",
     "type": "Item",
+    "roll": 27,
     "description": "While falling, you can mark a Stress to deploy this small parachute and glide safely to the ground."
   },
   {
     "name": "Gloves of Alacrity",
     "type": "Item",
+    "roll": 37,
     "description": "When you would mark a Stress to reload a weapon, you don't mark it."
   },
   {
     "name": "Gourmet Granules",
     "type": "Item",
+    "roll": 7,
     "description": "This savory powder makes any food it's sprinkled on delicious and healthy, no matter how bland or rotten it is."
   },
   {
     "name": "Grapnel",
     "type": "Item",
+    "roll": 2,
     "description": "You gain advantage on action rolls to climb sheer surfaces."
   },
   {
     "name": "Gravewarden's Bell",
     "type": "Item",
+    "roll": 29,
     "description": "This bell rings when a ghost or undead creature moves within Far range of it."
   },
   {
     "name": "Greatstone",
     "type": "Item",
+    "roll": 26,
     "description": "You can attach this stone to a weapon that doesn't already have a feature. The weapon gains the following feature. **_Powerful:_** On a successful attack, roll an additional damage die and discard the lowest result."
   },
   {
     "name": "Hero's Helm",
     "type": "Item",
+    "roll": 51,
     "description": "When you critically succeed on an attack, all allies within Close range gain a Hope."
   },
   {
     "name": "Hollowbark Horn",
     "type": "Item",
+    "roll": 13,
     "description": "You can blow this horn to summon a small woodland creature to perform a simple task."
   },
   {
     "name": "Homing Compasses",
     "type": "Item",
+    "roll": 20,
     "description": "These two compasses point toward each other no matter how far apart they are."
   },
   {
     "name": "Honing Relic",
     "type": "Item",
+    "roll": 47,
     "description": "You gain a +1 bonus to an Experience of your choice. You can only carry one relic."
   },
   {
     "name": "Hopekeeper Locket",
     "type": "Item",
+    "roll": 39,
     "description": "During a long rest, if you have 6 Hope, you can spend a Hope to imbue this locket with your bountiful resolve. When you have 0 Hope, you can use the locket to immediately gain a Hope. The locket must be re-imbued before it can be used this way again."
   },
   {
     "name": "Infinite Bag",
     "type": "Item",
+    "roll": 40,
     "description": "When you store items in this bag, they are kept in a pocket dimension that never runs out of space. You can retrieve an item at any time."
   },
   {
     "name": "Insomniac's Periapt",
     "type": "Item",
+    "roll": 38,
     "description": "When you take a rest without clearing Hit Points or Stress, you gain a +2 bonus to attack and damage rolls until your next rest."
   },
   {
     "name": "Iron Dagger Pendant",
     "type": "Item",
+    "roll": 48,
     "description": "Once per long rest, you can spend a Hope to tell the pendant a creature's name. The pendant gently pulls you toward that creature's current location until your next long rest."
   },
   {
     "name": "Iron Veil",
     "type": "Item",
+    "roll": 23,
     "description": "This chain-link head covering renders the wearer invisible to fey creatures."
   },
   {
     "name": "Kingfisher's Net",
     "type": "Item",
+    "roll": 21,
     "description": "Once per long rest, you can use this net to scoop one live fish out of any amount of water, no matter how unlikely it is for that water to have fish in it."
   },
   {
     "name": "Knockback Bracelets",
     "type": "Item",
+    "roll": 44,
     "description": "On a successful weapon attack, you can knock your target back up to Close range from their location."
   },
   {
     "name": "Lakestrider Boots",
     "type": "Item",
+    "roll": 49,
     "description": "You can walk on the surface of water as if it were soft ground."
   },
   {
     "name": "Loaded Dice",
     "type": "Item",
+    "roll": 12,
     "description": "You can choose what result this set of weighted dice rolls with a successful Finesse Roll (14). If you roll with Fear, anyone watching knows the dice are loaded."
   },
   {
     "name": "Lorekeeper",
     "type": "Item",
+    "roll": 23,
     "description": "You can store the name and details of up to three hostile creatures inside this book. You gain a +1 bonus to action rolls against those creatures."
   },
   {
     "name": "Manacles",
     "type": "Item",
+    "roll": 6,
     "description": "This pair of locking cuffs comes with a key."
   },
   {
     "name": "Mandragorian Torch",
     "type": "Item",
+    "roll": 17,
     "description": "This torch gives off light only the bearer can see."
   },
   {
     "name": "Map of Revelation",
     "type": "Item",
+    "roll": 31,
     "description": "You can attune this map to one creature at a time. The map always shows the attuned creature's location."
   },
   {
     "name": "Minor Health Potion Recipe",
     "type": "Item",
+    "roll": 19,
     "description": "As a downtime move, you can use a vial of blood to craft a Minor Health Potion."
   },
   {
     "name": "Minor Stamina Potion Recipe",
     "type": "Item",
+    "roll": 18,
     "description": "As a downtime move, you can use the bone of a creature to craft a Minor Stamina Potion."
   },
   {
     "name": "Molepaw Mittens",
     "type": "Item",
+    "roll": 46,
     "description": "Spend a Hope to swim through earth as if it were water for the next 10 minutes."
   },
   {
     "name": "Mythic Dust Recipe",
     "type": "Item",
+    "roll": 51,
     "description": "As a downtime move, you can use a handful of fine gold dust to craft Mythic Dust."
   },
   {
     "name": "Namer's Oracle",
     "type": "Item",
+    "roll": 41,
     "description": "Once per session, you can roll this set of runic dice to reveal the full name of the last person you touched."
   },
   {
     "name": "Nighthawker's Ring",
     "type": "Item",
+    "roll": 5,
     "description": "Spend a Hope to activate the gemstone in this ring until the end of the scene. While active, the gemstone changes color to indicate the wearer's proximity to hidden treasure: warm colors for near, cool colors for far."
   },
   {
     "name": "Paragon's Chain",
     "type": "Item",
+    "roll": 37,
     "description": "As a downtime move, you can meditate on an ideal or principle you hold dear and focus your will into this chain. Once per long rest, you can spend a Hope to roll a d20 as your Hope Die for rolls that directly align with that principle."
   },
   {
     "name": "Phobophage's Circlet",
     "type": "Item",
+    "roll": 55,
     "description": "When the GM spends a Fear, roll a d4. Once per scene on a result of 4, you clear a Stress."
   },
   {
     "name": "Phoenix Feather",
     "type": "Item",
+    "roll": 33,
     "description": "If you have at least one Phoenix Feather on you when you fall unconscious, you gain a +1 bonus to the roll you make to determine whether you gain a scar."
   },
   {
     "name": "Piercing Arrows",
     "type": "Item",
+    "roll": 14,
     "description": "Three times per rest when you succeed on an attack with one of these arrows, you can add your Proficiency to the damage roll."
   },
   {
     "name": "Piper Whistle",
     "type": "Item",
+    "roll": 2,
     "description": "This handcrafted whistle has a distinctive sound. When you blow this whistle, its piercing tone can be heard within a 1-mile radius."
   },
   {
     "name": "Portal Frames",
     "type": "Item",
+    "roll": 58,
     "description": "This pair of small ornate frames, one red and one blue, are connected. Anything that passes into one exits from the other."
   },
   {
     "name": "Portal Seed",
     "type": "Item",
+    "roll": 36,
     "description": "You can plant this seed in the ground to grow a portal in that spot. The portal is ready to use in 24 hours. You can use this portal to travel to any other location where you planted a portal seed. A portal can be destroyed by dealing any amount of magic damage to it."
   },
   {
     "name": "Premium Bedroll",
     "type": "Item",
+    "roll": 1,
     "description": "During downtime, you automatically clear a Stress."
   },
   {
     "name": "Quillshawl",
     "type": "Item",
+    "roll": 56,
     "description": "If an adversary attacks you within Melee range, they must succeed on a Reaction Roll (12) or mark a Hit Point."
   },
   {
     "name": "Reliquary of the Sightless Saint",
     "type": "Item",
+    "roll": 30,
     "description": "You gain a +1 bonus to your Hope Die when you make the Risk It All death move."
   },
   {
     "name": "Returning Ring",
     "type": "Item",
+    "roll": 20,
     "description": "When you throw your primary weapon while wearing this ring, the weapon appears in your hand immediately after the attack."
   },
   {
     "name": "Ring of Resistance",
     "type": "Item",
+    "roll": 32,
     "description": "Once per long rest, you can activate this ring after a successful attack against you to halve the damage."
   },
   {
     "name": "Ring of Silence",
     "type": "Item",
+    "roll": 28,
     "description": "Spend a Hope to activate this ring. Your footsteps are silent until your next rest."
   },
   {
     "name": "Ring of Unbreakable Resolve",
     "type": "Item",
+    "roll": 59,
     "description": "Once per session, when the GM spends a Fear, you can spend 4 Hope to cancel the effects of that spent Fear."
   },
   {
     "name": "Rings of Alliance",
     "type": "Item",
+    "roll": 54,
     "description": "Two creatures can wear this pair of rose gold rings. Once per session, you can initiate a Tag Team Roll with whoever is wearing the other ring without spending Hope or counting against your session limit for Tag Team Rolls."
   },
   {
     "name": "Rings of Camaraderie",
     "type": "Item",
+    "roll": 53,
     "description": "Two creatures can wear this pair of wooden rings. You can mark the Stress of whoever is wearing the other ring (with their permission) as if it were your own."
   },
   {
     "name": "Rings of Friendship",
     "type": "Item",
+    "roll": 52,
     "description": "Two creatures can wear this pair of rings shaped like coiled snakes. You can spend the Hope of whoever is wearing the other ring (with their permission) as if it were your own."
   },
   {
     "name": "Self-Tying Rope",
     "type": "Item",
+    "roll": 14,
     "description": "You can command this rope to tie or untie itself."
   },
   {
     "name": "Shard of Memory",
     "type": "Item",
+    "roll": 52,
     "description": "Once per long rest, you can spend 2 Hope to recall a domain card from your vault instead of paying its Recall Cost."
   },
   {
     "name": "Silee's Folding Knife",
     "type": "Item",
+    "roll": 10,
     "description": "This 3-inch blade has an edge that easily cuts through anything except the handle it's stored in."
   },
   {
     "name": "Skeleton Key",
     "type": "Item",
+    "roll": 16,
     "description": "When you use this key to open a locked door, you gain advantage on the Finesse Roll."
   },
   {
     "name": "Sorcerer's Hat",
     "type": "Item",
+    "roll": 35,
     "description": "This conical blue hat is covered in silver stars. Once per rest, you can cast a spell from your vault with a Recall Cost equal to or less than your tier. This doesn't work for permanently vaulted cards."
   },
   {
     "name": "Soul-Twin Circlets",
     "type": "Item",
+    "roll": 40,
     "description": "Two creatures can wear this pair of circlets. You can spend a Hope to switch places with whoever is wearing the other circlet."
   },
   {
     "name": "Speaking Orbs",
     "type": "Item",
+    "roll": 5,
     "description": "This pair of orbs allows any creatures holding them to communicate with each other across any distance."
   },
   {
     "name": "Stride Relic",
     "type": "Item",
+    "roll": 41,
     "description": "You gain a +1 bonus to your Agility. You can only carry one relic."
   },
   {
     "name": "Suspended Rod",
     "type": "Item",
+    "roll": 10,
     "description": "This flat rod is inscribed with runes. When you activate the rod, it is immediately suspended in place. Until the rod is deactivated, it can't move, doesn't abide by the rules of gravity, and remains in place."
   },
   {
     "name": "Temporal Sanctuary",
     "type": "Item",
+    "roll": 50,
     "description": "A PC who takes a rest in the temporal sanctuary can choose an additional downtime move."
   },
   {
     "name": "Thief's Compass",
     "type": "Item",
+    "roll": 15,
     "description": "This compass points the way toward the nearest exit while indoors and the closest entrance while outdoors."
   },
   {
     "name": "Timekeeper's Pendant",
     "type": "Item",
+    "roll": 47,
     "description": "You can choose an additional downtime move each rest."
   },
   {
     "name": "Titan's Girdle",
     "type": "Item",
+    "roll": 22,
     "description": "Once per scene, you can activate this girdle to gain a +1 bonus to your Proficiency for your next attack."
   },
   {
     "name": "Traveler's Bell",
     "type": "Item",
+    "roll": 16,
     "description": "Once per long rest, you can ring this bell to magically open the shortest safe path through rough terrain for 1 hour."
   },
   {
     "name": "Two-Faced Aegis Brooch",
     "type": "Item",
+    "roll": 43,
     "description": "Once per rest, flip a coin. On heads, you become immune to the next physical damage you take. On tails, you become immune to the next magic damage you take."
   },
   {
     "name": "Valorstone",
     "type": "Item",
+    "roll": 15,
     "description": "You can attach this stone to armor that doesn't already have a feature. The armor gains the following feature. **_Resilient:_** Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot."
   },
   {
     "name": "Vial of Darksmoke Recipe",
     "type": "Item",
+    "roll": 24,
     "description": "As a downtime move, you can mark a Stress to craft a Vial of Darksmoke."
   },
   {
     "name": "Warp Pendant",
     "type": "Item",
+    "roll": 57,
     "description": "Once per rest, mark a Stress to teleport to a location you can clearly see."
   },
   {
     "name": "Whisperstep Anklet",
     "type": "Item",
+    "roll": 25,
     "description": "This anklet makes your steps silent as long as you don't move faster than walking speed."
   },
   {
     "name": "Wildrider's Saddle",
     "type": "Item",
+    "roll": 39,
     "description": "This saddle grants any animal it's strapped onto the ability to understand their rider's commands."
   },
   {
     "name": "Windup Toy",
     "type": "Item",
+    "roll": 11,
     "description": "This small mechanical device is shaped like a strixwolf pup and can be programmed to perform simple tricks."
   },
   {
     "name": "Woven Net",
     "type": "Item",
+    "roll": 8,
     "description": "You can make a Finesse Roll using this net to trap a small creature. A trapped target can break free with a successful Attack Roll (16)."
   },
   {
     "name": "Zephyr's Jar",
     "type": "Item",
+    "roll": 19,
     "description": "You can open this empty jar during inclement weather to capture the storm and leave behind clear skies. The storm remains inside until unleashed by reopening the jar."
   }
 ]

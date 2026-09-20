@@ -2,10 +2,10 @@
   {
     "name": "Advanced Banded Armor",
     "tier": 3,
-    "baseThresholds": {
-      "major": 15,
-      "severe": 34
-    },
+    "baseThresholds": [
+      15,
+      34
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Bulky",
@@ -15,10 +15,10 @@
   {
     "name": "Advanced Brigandine Armor",
     "tier": 3,
-    "baseThresholds": {
-      "major": 11,
-      "severe": 26
-    },
+    "baseThresholds": [
+      11,
+      26
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Lined",
@@ -28,10 +28,10 @@
   {
     "name": "Advanced Chainmail Armor",
     "tier": 3,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 31
-    },
+    "baseThresholds": [
+      13,
+      31
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Heavy",
@@ -41,10 +41,10 @@
   {
     "name": "Advanced Full Plate Armor",
     "tier": 3,
-    "baseThresholds": {
-      "major": 15,
-      "severe": 35
-    },
+    "baseThresholds": [
+      15,
+      35
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Very Heavy",
@@ -54,10 +54,10 @@
   {
     "name": "Advanced Gambeson Armor",
     "tier": 3,
-    "baseThresholds": {
-      "major": 9,
-      "severe": 23
-    },
+    "baseThresholds": [
+      9,
+      23
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Flexible",
@@ -67,20 +67,20 @@
   {
     "name": "Advanced Leather Armor",
     "tier": 3,
-    "baseThresholds": {
-      "major": 11,
-      "severe": 27
-    },
+    "baseThresholds": [
+      11,
+      27
+    ],
     "baseScore": 5,
     "feature": null
   },
   {
     "name": "Advanced Mage Robes",
     "tier": 3,
-    "baseThresholds": {
-      "major": 8,
-      "severe": 22
-    },
+    "baseThresholds": [
+      8,
+      22
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Enchanted",
@@ -90,10 +90,10 @@
   {
     "name": "Advanced Scale Mail Armor",
     "tier": 3,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 30
-    },
+    "baseThresholds": [
+      13,
+      30
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Cumbersome",
@@ -103,10 +103,10 @@
   {
     "name": "Astral Raiment",
     "tier": 3,
-    "baseThresholds": {
-      "major": 11,
-      "severe": 27
-    },
+    "baseThresholds": [
+      11,
+      27
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Stellar",
@@ -116,10 +116,10 @@
   {
     "name": "Banded Armor",
     "tier": 1,
-    "baseThresholds": {
-      "major": 8,
-      "severe": 16
-    },
+    "baseThresholds": [
+      8,
+      16
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Bulky",
@@ -129,10 +129,10 @@
   {
     "name": "Bellamoi Fine Armor",
     "tier": 3,
-    "baseThresholds": {
-      "major": 11,
-      "severe": 27
-    },
+    "baseThresholds": [
+      11,
+      27
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Gilded",
@@ -142,10 +142,10 @@
   {
     "name": "Bladefare Armor",
     "tier": 3,
-    "baseThresholds": {
-      "major": 16,
-      "severe": 39
-    },
+    "baseThresholds": [
+      16,
+      39
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Physical",
@@ -155,10 +155,10 @@
   {
     "name": "Bloodstone Plate Armor",
     "tier": 3,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 35
-    },
+    "baseThresholds": [
+      13,
+      35
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Bloodthirsty",
@@ -168,10 +168,10 @@
   {
     "name": "Brigandine Armor",
     "tier": 1,
-    "baseThresholds": {
-      "major": 6,
-      "severe": 12
-    },
+    "baseThresholds": [
+      6,
+      12
+    ],
     "baseScore": 3,
     "feature": {
       "name": "Lined",
@@ -181,10 +181,10 @@
   {
     "name": "Chainmail Armor",
     "tier": 1,
-    "baseThresholds": {
-      "major": 7,
-      "severe": 15
-    },
+    "baseThresholds": [
+      7,
+      15
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Heavy",
@@ -194,10 +194,10 @@
   {
     "name": "Channeling Armor",
     "tier": 4,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 36
-    },
+    "baseThresholds": [
+      13,
+      36
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Channeling",
@@ -207,10 +207,10 @@
   {
     "name": "Circle-Forged Dreadplate",
     "tier": 4,
-    "baseThresholds": {
-      "major": 14,
-      "severe": 38
-    },
+    "baseThresholds": [
+      14,
+      38
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Accursed",
@@ -220,10 +220,10 @@
   {
     "name": "Cloverweave Cloak",
     "tier": 3,
-    "baseThresholds": {
-      "major": 11,
-      "severe": 27
-    },
+    "baseThresholds": [
+      11,
+      27
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Fortune-Favored",
@@ -233,10 +233,10 @@
   {
     "name": "Darkweave Shroud",
     "tier": 4,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 36
-    },
+    "baseThresholds": [
+      13,
+      36
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Ghostwalker",
@@ -246,10 +246,10 @@
   {
     "name": "Deep-Forged Coral Armor",
     "tier": 3,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 35
-    },
+    "baseThresholds": [
+      13,
+      35
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Aquatic",
@@ -259,10 +259,10 @@
   {
     "name": "Dragonscale Armor",
     "tier": 3,
-    "baseThresholds": {
-      "major": 11,
-      "severe": 27
-    },
+    "baseThresholds": [
+      11,
+      27
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Impenetrable",
@@ -272,10 +272,10 @@
   {
     "name": "Dunamis Silkchain",
     "tier": 4,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 36
-    },
+    "baseThresholds": [
+      13,
+      36
+    ],
     "baseScore": 7,
     "feature": {
       "name": "Timeslowing",
@@ -285,10 +285,10 @@
   {
     "name": "Elundrian Chain Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 9,
-      "severe": 21
-    },
+    "baseThresholds": [
+      9,
+      21
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Warded",
@@ -298,10 +298,10 @@
   {
     "name": "Emberwoven Armor",
     "tier": 4,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 36
-    },
+    "baseThresholds": [
+      13,
+      36
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Burning",
@@ -311,10 +311,10 @@
   {
     "name": "Enchanter's Robes",
     "tier": 2,
-    "baseThresholds": {
-      "major": 9,
-      "severe": 20
-    },
+    "baseThresholds": [
+      9,
+      20
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Mnemonic",
@@ -324,10 +324,10 @@
   {
     "name": "Full Fortified Armor",
     "tier": 4,
-    "baseThresholds": {
-      "major": 15,
-      "severe": 40
-    },
+    "baseThresholds": [
+      15,
+      40
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Fortified",
@@ -337,10 +337,10 @@
   {
     "name": "Full Plate Armor",
     "tier": 1,
-    "baseThresholds": {
-      "major": 8,
-      "severe": 17
-    },
+    "baseThresholds": [
+      8,
+      17
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Very Heavy",
@@ -350,10 +350,10 @@
   {
     "name": "Gambeson Armor",
     "tier": 1,
-    "baseThresholds": {
-      "major": 5,
-      "severe": 11
-    },
+    "baseThresholds": [
+      5,
+      11
+    ],
     "baseScore": 3,
     "feature": {
       "name": "Flexible",
@@ -363,10 +363,10 @@
   {
     "name": "Gilded Sunplate",
     "tier": 2,
-    "baseThresholds": {
-      "major": 12,
-      "severe": 26
-    },
+    "baseThresholds": [
+      12,
+      26
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Resplendent",
@@ -376,10 +376,10 @@
   {
     "name": "Godbound Laminar",
     "tier": 4,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 36
-    },
+    "baseThresholds": [
+      13,
+      36
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Divine",
@@ -389,10 +389,10 @@
   {
     "name": "Granminster's Finery",
     "tier": 3,
-    "baseThresholds": {
-      "major": 11,
-      "severe": 27
-    },
+    "baseThresholds": [
+      11,
+      27
+    ],
     "baseScore": 2,
     "feature": {
       "name": "Magnificent",
@@ -402,10 +402,10 @@
   {
     "name": "Hallowed Heroplate",
     "tier": 4,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 35
-    },
+    "baseThresholds": [
+      13,
+      35
+    ],
     "baseScore": 7,
     "feature": {
       "name": "Blessed",
@@ -415,10 +415,10 @@
   {
     "name": "Harrowbone Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 9,
-      "severe": 21
-    },
+    "baseThresholds": [
+      9,
+      21
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Resilient",
@@ -428,10 +428,10 @@
   {
     "name": "Hawkguard's Mantle",
     "tier": 2,
-    "baseThresholds": {
-      "major": 9,
-      "severe": 20
-    },
+    "baseThresholds": [
+      9,
+      20
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Gliding",
@@ -441,10 +441,10 @@
   {
     "name": "Improved Banded Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 27
-    },
+    "baseThresholds": [
+      13,
+      27
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Bulky",
@@ -454,10 +454,10 @@
   {
     "name": "Improved Brigandine Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 9,
-      "severe": 19
-    },
+    "baseThresholds": [
+      9,
+      19
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Lined",
@@ -467,10 +467,10 @@
   {
     "name": "Improved Chainmail Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 11,
-      "severe": 24
-    },
+    "baseThresholds": [
+      11,
+      24
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Heavy",
@@ -480,10 +480,10 @@
   {
     "name": "Improved Full Plate Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 28
-    },
+    "baseThresholds": [
+      13,
+      28
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Very Heavy",
@@ -493,10 +493,10 @@
   {
     "name": "Improved Gambeson Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 7,
-      "severe": 16
-    },
+    "baseThresholds": [
+      7,
+      16
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Flexible",
@@ -506,20 +506,20 @@
   {
     "name": "Improved Leather Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 9,
-      "severe": 20
-    },
+    "baseThresholds": [
+      9,
+      20
+    ],
     "baseScore": 4,
     "feature": null
   },
   {
     "name": "Improved Mage Robes",
     "tier": 2,
-    "baseThresholds": {
-      "major": 6,
-      "severe": 15
-    },
+    "baseThresholds": [
+      6,
+      15
+    ],
     "baseScore": 3,
     "feature": {
       "name": "Enchanted",
@@ -529,10 +529,10 @@
   {
     "name": "Improved Scale Mail Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 11,
-      "severe": 23
-    },
+    "baseThresholds": [
+      11,
+      23
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Cumbersome",
@@ -542,10 +542,10 @@
   {
     "name": "Irontree Breastplate Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 9,
-      "severe": 20
-    },
+    "baseThresholds": [
+      9,
+      20
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Reinforced",
@@ -555,20 +555,20 @@
   {
     "name": "Leather Armor",
     "tier": 1,
-    "baseThresholds": {
-      "major": 6,
-      "severe": 13
-    },
+    "baseThresholds": [
+      6,
+      13
+    ],
     "baseScore": 3,
     "feature": null
   },
   {
     "name": "Legendary Banded Armor",
     "tier": 4,
-    "baseThresholds": {
-      "major": 17,
-      "severe": 43
-    },
+    "baseThresholds": [
+      17,
+      43
+    ],
     "baseScore": 7,
     "feature": {
       "name": "Bulky",
@@ -578,10 +578,10 @@
   {
     "name": "Legendary Brigandine Armor",
     "tier": 4,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 35
-    },
+    "baseThresholds": [
+      13,
+      35
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Lined",
@@ -591,10 +591,10 @@
   {
     "name": "Legendary Chainmail Armor",
     "tier": 4,
-    "baseThresholds": {
-      "major": 15,
-      "severe": 40
-    },
+    "baseThresholds": [
+      15,
+      40
+    ],
     "baseScore": 7,
     "feature": {
       "name": "Heavy",
@@ -604,10 +604,10 @@
   {
     "name": "Legendary Full Plate Armor",
     "tier": 4,
-    "baseThresholds": {
-      "major": 17,
-      "severe": 44
-    },
+    "baseThresholds": [
+      17,
+      44
+    ],
     "baseScore": 7,
     "feature": {
       "name": "Very Heavy",
@@ -617,10 +617,10 @@
   {
     "name": "Legendary Gambeson Armor",
     "tier": 4,
-    "baseThresholds": {
-      "major": 11,
-      "severe": 32
-    },
+    "baseThresholds": [
+      11,
+      32
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Flexible",
@@ -630,20 +630,20 @@
   {
     "name": "Legendary Leather Armor",
     "tier": 4,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 36
-    },
+    "baseThresholds": [
+      13,
+      36
+    ],
     "baseScore": 6,
     "feature": null
   },
   {
     "name": "Legendary Mage Robes",
     "tier": 4,
-    "baseThresholds": {
-      "major": 10,
-      "severe": 31
-    },
+    "baseThresholds": [
+      10,
+      31
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Enchanted",
@@ -653,10 +653,10 @@
   {
     "name": "Legendary Scale Mail Armor",
     "tier": 4,
-    "baseThresholds": {
-      "major": 15,
-      "severe": 39
-    },
+    "baseThresholds": [
+      15,
+      39
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Cumbersome",
@@ -666,10 +666,10 @@
   {
     "name": "Mage Robes",
     "tier": 1,
-    "baseThresholds": {
-      "major": 4,
-      "severe": 10
-    },
+    "baseThresholds": [
+      4,
+      10
+    ],
     "baseScore": 2,
     "feature": {
       "name": "Enchanted",
@@ -679,10 +679,10 @@
   {
     "name": "Monett's Cloak",
     "tier": 3,
-    "baseThresholds": {
-      "major": 16,
-      "severe": 39
-    },
+    "baseThresholds": [
+      16,
+      39
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Magic",
@@ -692,10 +692,10 @@
   {
     "name": "Resonant Harness",
     "tier": 4,
-    "baseThresholds": {
-      "major": 15,
-      "severe": 40
-    },
+    "baseThresholds": [
+      15,
+      40
+    ],
     "baseScore": 7,
     "feature": {
       "name": "Vitreous",
@@ -705,10 +705,10 @@
   {
     "name": "Rosewild Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 11,
-      "severe": 23
-    },
+    "baseThresholds": [
+      11,
+      23
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Hopeful",
@@ -718,10 +718,10 @@
   {
     "name": "Rune-Forged Exosuit",
     "tier": 4,
-    "baseThresholds": {
-      "major": 12,
-      "severe": 39
-    },
+    "baseThresholds": [
+      12,
+      39
+    ],
     "baseScore": 7,
     "feature": {
       "name": "Attuned",
@@ -731,10 +731,10 @@
   {
     "name": "Runes of Fortification",
     "tier": 3,
-    "baseThresholds": {
-      "major": 17,
-      "severe": 43
-    },
+    "baseThresholds": [
+      17,
+      43
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Painful",
@@ -744,10 +744,10 @@
   {
     "name": "Runetan Floating Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 9,
-      "severe": 20
-    },
+    "baseThresholds": [
+      9,
+      20
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Shifting",
@@ -757,10 +757,10 @@
   {
     "name": "Savior Chainmail",
     "tier": 4,
-    "baseThresholds": {
-      "major": 18,
-      "severe": 48
-    },
+    "baseThresholds": [
+      18,
+      48
+    ],
     "baseScore": 8,
     "feature": {
       "name": "Difficult",
@@ -770,10 +770,10 @@
   {
     "name": "Scale Mail Armor",
     "tier": 1,
-    "baseThresholds": {
-      "major": 7,
-      "severe": 14
-    },
+    "baseThresholds": [
+      7,
+      14
+    ],
     "baseScore": 3,
     "feature": {
       "name": "Cumbersome",
@@ -783,10 +783,10 @@
   {
     "name": "Skywarden's Lamellar",
     "tier": 3,
-    "baseThresholds": {
-      "major": 11,
-      "severe": 27
-    },
+    "baseThresholds": [
+      11,
+      27
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Vigilant",
@@ -796,10 +796,10 @@
   {
     "name": "Spidersilk Tunic",
     "tier": 2,
-    "baseThresholds": {
-      "major": 9,
-      "severe": 20
-    },
+    "baseThresholds": [
+      9,
+      20
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Wall-Crawling",
@@ -809,10 +809,10 @@
   {
     "name": "Spiked Plate Armor",
     "tier": 3,
-    "baseThresholds": {
-      "major": 10,
-      "severe": 25
-    },
+    "baseThresholds": [
+      10,
+      25
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Sharp",
@@ -822,10 +822,10 @@
   {
     "name": "Stormthread Habit",
     "tier": 2,
-    "baseThresholds": {
-      "major": 9,
-      "severe": 20
-    },
+    "baseThresholds": [
+      9,
+      20
+    ],
     "baseScore": 4,
     "feature": {
       "name": "Absorbing",
@@ -835,10 +835,10 @@
   {
     "name": "Trollhide Cuirass",
     "tier": 2,
-    "baseThresholds": {
-      "major": 11,
-      "severe": 23
-    },
+    "baseThresholds": [
+      11,
+      23
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Self-Healing",
@@ -848,10 +848,10 @@
   {
     "name": "Tyris Soft Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 8,
-      "severe": 18
-    },
+    "baseThresholds": [
+      8,
+      18
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Quiet",
@@ -861,10 +861,10 @@
   {
     "name": "Veritas Opal Armor",
     "tier": 4,
-    "baseThresholds": {
-      "major": 13,
-      "severe": 36
-    },
+    "baseThresholds": [
+      13,
+      36
+    ],
     "baseScore": 6,
     "feature": {
       "name": "Truthseeking",
@@ -874,10 +874,10 @@
   {
     "name": "Wyrdwood Splint Armor",
     "tier": 2,
-    "baseThresholds": {
-      "major": 10,
-      "severe": 21
-    },
+    "baseThresholds": [
+      10,
+      21
+    ],
     "baseScore": 5,
     "feature": {
       "name": "Quick-Striding",

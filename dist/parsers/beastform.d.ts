@@ -14,7 +14,7 @@ export type Beastform = {
         trait: Trait;
         range: Range;
         damage: Damage;
-        damageType: DamageType;
+        damageType: DamageType[];
     } | null;
     advantages: string[];
     features: NamedFeature[];

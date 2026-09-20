@@ -1,4 +1,5 @@
 export * from "./common.js";
+export * from "./character.js";
 export type * from "./parsers/ability.js";
 export type * from "./parsers/adversary.js";
 export type * from "./parsers/ancestry.js";

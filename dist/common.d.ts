@@ -10,7 +10,7 @@ export type RollModifier = `+${number}` | `-${number}`;
 export type Damage = DiceRoll | `${DiceRoll}${RollModifier}` | `${number}`;
 /** Attack bonus, usually "+1"/"-2"; occasionally a die like "+2d4". */
 export type AttackBonus = RollModifier | `+${DiceRoll}`;
-export declare const damageTypes: readonly ["phy", "mag", "phy/mag", "phy or mag", "direct phy"];
+export declare const damageTypes: readonly ["phy", "mag", "direct phy"];
 export type DamageType = (typeof damageTypes)[number];
 export declare const burdens: readonly ["One-Handed", "Two-Handed"];
 export type Burden = (typeof burdens)[number];
@@ -39,10 +39,7 @@ export type TypedFeature = {
     detail?: string;
     description: string;
 };
-export type ArmorThresholds = {
-    major: number;
-    severe: number;
-};
+export type ArmorThresholds = [major: number, severe: number];
 /** Adversary thresholds; a side is null where the SRD says "None". */
 export type AdversaryThresholds = {
     major: number | null;

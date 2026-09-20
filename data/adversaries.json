@@ -22,7 +22,9 @@
       "name": "Claws",
       "range": "Very Close",
       "damage": "1d12+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -76,7 +78,9 @@
       "name": "Wing Slash",
       "range": "Very Close",
       "damage": "3d20",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -139,7 +143,9 @@
       "name": "Bite",
       "range": "Melee",
       "damage": "1d6+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -192,7 +198,9 @@
       "name": "Thrown Dagger",
       "range": "Very Close",
       "damage": "4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -236,7 +244,9 @@
       "name": "Necrotic Blast",
       "range": "Far",
       "damage": "4d12+8",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -299,7 +309,9 @@
       "name": "Longbow",
       "range": "Far",
       "damage": "1d8+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -338,7 +350,9 @@
       "name": "Longbow",
       "range": "Far",
       "damage": "2d6+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -381,7 +395,9 @@
       "name": "Archmage's Greatstaff",
       "range": "Far",
       "damage": "3d10",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -440,7 +456,9 @@
       "name": "Poisoned Throwing Dagger",
       "range": "Close",
       "damage": "2d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -488,7 +506,9 @@
       "name": "Talons",
       "range": "Melee",
       "damage": "1d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -541,7 +561,9 @@
       "name": "Fingernails",
       "range": "Melee",
       "damage": "2d6+1",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -599,7 +621,9 @@
       "name": "Jaws & Claws",
       "range": "Melee",
       "damage": "2d6+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -637,7 +661,9 @@
       "name": "Slam",
       "range": "Melee",
       "damage": "2d6+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -691,7 +717,9 @@
       "name": "Claws",
       "range": "Melee",
       "damage": "1d8+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -744,7 +772,9 @@
       "name": "Tooth & Claw",
       "range": "Melee",
       "damage": "2d10+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -796,7 +826,9 @@
       "name": "Tooth & Claw",
       "range": "Melee",
       "damage": "2d10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -840,7 +872,9 @@
       "name": "Longsword",
       "range": "Melee",
       "damage": "1d6+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -884,7 +918,9 @@
       "name": "Slam",
       "range": "Very Close",
       "damage": "1d12+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -936,7 +972,9 @@
       "name": "Spiked Mace",
       "range": "Very Close",
       "damage": "1d8+6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -984,7 +1022,9 @@
       "name": "Spirit Flame",
       "range": "Far",
       "damage": "3d8+5",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -1038,7 +1078,9 @@
       "name": "Club",
       "range": "Very Close",
       "damage": "1d10+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -1091,7 +1133,9 @@
       "name": "Recurved Bow",
       "range": "Far",
       "damage": "2d8+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -1149,7 +1193,9 @@
       "name": "Meaty Fists",
       "range": "Melee",
       "damage": "4d10+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -1209,7 +1255,9 @@
       "name": "Barbed Suckers",
       "range": "Melee",
       "damage": "9",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -1257,7 +1305,9 @@
       "name": "Eldritch Might",
       "range": "Melee",
       "damage": "12",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -1305,7 +1355,9 @@
       "name": "Psychic Strike",
       "range": "Far",
       "damage": "4d10+10",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -1354,7 +1406,9 @@
       "name": "Pseudoclaw",
       "range": "Close",
       "damage": "4d8+10",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -1421,7 +1475,9 @@
       "name": "Energy Blast",
       "range": "Close",
       "damage": "2d8+3",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [],
     "features": [
@@ -1470,7 +1526,9 @@
       "name": "Clawed Feet",
       "range": "Very Close",
       "damage": "2d10+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -1518,7 +1576,9 @@
       "name": "Claws",
       "range": "Melee",
       "damage": "3d12",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -1571,7 +1631,9 @@
       "name": "Bite",
       "range": "Close",
       "damage": "4d8+12",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -1638,7 +1700,9 @@
       "name": "Bejeweled Blade",
       "range": "Very Close",
       "damage": "4d6+8",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -1704,7 +1768,9 @@
       "name": "Improvised Weapon",
       "range": "Melee",
       "damage": "1d8",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -1747,7 +1813,9 @@
       "name": "Spears",
       "range": "Very Close",
       "damage": "6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -1786,7 +1854,9 @@
       "name": "Fist Slam",
       "range": "Melee",
       "damage": "1d20",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -1839,7 +1909,9 @@
       "name": "Dagger",
       "range": "Melee",
       "damage": "1d4+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -1882,7 +1954,9 @@
       "name": "Daggers",
       "range": "Melee",
       "damage": "1d4+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -1925,7 +1999,9 @@
       "name": "Leaping Bite",
       "range": "Very Close",
       "damage": "3d20",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -1988,7 +2064,9 @@
       "name": "Claws",
       "range": "Melee",
       "damage": "3d8+5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -2041,7 +2119,9 @@
       "name": "Rune-Covered Rod",
       "range": "Far",
       "damage": "2d4+3",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -2098,7 +2178,9 @@
       "name": "Long Knife",
       "range": "Melee",
       "damage": "2d8+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -2136,7 +2218,9 @@
       "name": "Ritual Dagger",
       "range": "Melee",
       "damage": "5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -2174,7 +2258,9 @@
       "name": "Chained Trident",
       "range": "Far",
       "damage": "3d6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -2222,7 +2308,9 @@
       "name": "Bite",
       "range": "Melee",
       "damage": "2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -2278,7 +2366,9 @@
       "name": "Spider Bite",
       "range": "Very Close",
       "damage": "1d12+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -2339,7 +2429,9 @@
       "name": "Fangs",
       "range": "Melee",
       "damage": "1d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -2388,7 +2480,9 @@
       "name": "Nibble",
       "range": "Melee",
       "damage": "1d8",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -2431,7 +2525,9 @@
       "name": "Teeth & Tentacles",
       "range": "Close",
       "damage": "3d10+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -2489,7 +2585,9 @@
       "name": "Vines",
       "range": "Close",
       "damage": "1d8+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -2532,7 +2630,9 @@
       "name": "Abyssal Claws",
       "range": "Close",
       "damage": "4d12+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -2590,7 +2690,9 @@
       "name": "Hungry Maw",
       "range": "Melee",
       "damage": "3d6+5",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -2638,7 +2740,9 @@
       "name": "Miasma Bolt",
       "range": "Far",
       "damage": "3d6+1",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -2691,7 +2795,9 @@
       "name": "Perfect Spear",
       "range": "Very Close",
       "damage": "3d10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -2749,7 +2855,9 @@
       "name": "Psychic Assault",
       "range": "Far",
       "damage": "3d8+3",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -2802,7 +2910,9 @@
       "name": "Fists",
       "range": "Very Close",
       "damage": "3d8+1",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -2856,7 +2966,9 @@
       "name": "Claws and Fangs",
       "range": "Melee",
       "damage": "2d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -2904,7 +3016,9 @@
       "name": "Claws and Teeth",
       "range": "Melee",
       "damage": "2d6+7",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -2952,7 +3066,9 @@
       "name": "Tail Slash",
       "range": "Very Close",
       "damage": "2d12+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3011,7 +3127,9 @@
       "name": "Claws",
       "range": "Melee",
       "damage": "1d6+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3055,7 +3173,9 @@
       "name": "Barbed Tail Whip",
       "range": "Very Close",
       "damage": "2d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3099,7 +3219,9 @@
       "name": "Lance",
       "range": "Very Close",
       "damage": "2d12+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3149,7 +3271,9 @@
       "name": "Bite & Slash",
       "range": "Close",
       "damage": "4d10+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3213,7 +3337,9 @@
       "name": "Claws & Teeth",
       "range": "Melee",
       "damage": "3d8+5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3257,7 +3383,9 @@
       "name": "Deadfall Shortbow",
       "range": "Far",
       "damage": "3d10+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3305,7 +3433,9 @@
       "name": "Spine Whip",
       "range": "Very Close",
       "damage": "3d10+1",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -3359,7 +3489,9 @@
       "name": "Shocking Bite",
       "range": "Melee",
       "damage": "2d6+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -3397,7 +3529,9 @@
       "name": "Bursts of Fire",
       "range": "Close",
       "damage": "5",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [],
     "features": [
@@ -3435,7 +3569,9 @@
       "name": "Feet & Tusks",
       "range": "Very Close",
       "damage": "2d12",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3482,7 +3618,9 @@
       "name": "Spear",
       "range": "Very Close",
       "damage": "2d8+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -3521,7 +3659,9 @@
       "name": "Antlers",
       "range": "Melee",
       "damage": "1d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3568,7 +3708,9 @@
       "name": "Razor Claws",
       "range": "Very Close",
       "damage": "2d12+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3626,7 +3768,9 @@
       "name": "Curved Blade",
       "range": "Melee",
       "damage": "2d10+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3668,7 +3812,9 @@
       "name": "Swipe",
       "range": "Melee",
       "damage": "2d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3737,7 +3883,9 @@
       "name": "Death Bolt",
       "range": "Far",
       "damage": "2d6+2",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -3790,7 +3938,9 @@
       "name": "Pincers",
       "range": "Melee",
       "damage": "2d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3837,7 +3987,9 @@
       "name": "Hammer and Chisel",
       "range": "Melee",
       "damage": "5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3885,7 +4037,9 @@
       "name": "Bite and Claw",
       "range": "Melee",
       "damage": "2d6+5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3934,7 +4088,9 @@
       "name": "Talons",
       "range": "Melee",
       "damage": "1d6+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -3982,7 +4138,9 @@
       "name": "Cursed Axe",
       "range": "Very Close",
       "damage": "12",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -4026,7 +4184,9 @@
       "name": "Corrupted Staff",
       "range": "Far",
       "damage": "4d6+10",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -4080,7 +4240,9 @@
       "name": "Barbed Whip",
       "range": "Close",
       "damage": "4d8+7",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -4151,7 +4313,9 @@
       "name": "Heart-Shattering Sword",
       "range": "Very Close",
       "damage": "4d12+13",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -4227,7 +4391,9 @@
       "name": "Cursed Lance",
       "range": "Close",
       "damage": "3d10+6",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -4285,7 +4451,9 @@
       "name": "Maul",
       "range": "Very Close",
       "damage": "4d10+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -4343,7 +4511,9 @@
       "name": "Greatsword",
       "range": "Close",
       "damage": "3d12+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -4412,7 +4582,9 @@
       "name": "Peck and Claw",
       "range": "Melee",
       "damage": "2d6+2",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -4459,7 +4631,9 @@
       "name": "Goose Teeth & Bear Claws",
       "range": "Very Close",
       "damage": "2d12+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -4511,7 +4685,9 @@
       "name": "Dual Axes",
       "range": "Very Close",
       "damage": "3d10+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -4572,7 +4748,9 @@
       "name": "Neuro Spore",
       "range": "Very Close",
       "damage": "4",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -4620,7 +4798,9 @@
       "name": "Spongy Fist",
       "range": "Very Close",
       "damage": "2d8+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -4678,7 +4858,9 @@
       "name": "Crushing Jaws",
       "range": "Very Close",
       "damage": "3d12+7",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -4735,7 +4917,9 @@
       "name": "Fists of Iron",
       "range": "Close",
       "damage": "4d12+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -4793,7 +4977,9 @@
       "name": "Stone Claws",
       "range": "Melee",
       "damage": "2d10+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -4846,7 +5032,9 @@
       "name": "Spectral Armaments",
       "range": "Close",
       "damage": "4d6+10",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -4896,7 +5084,9 @@
       "name": "Longbow",
       "range": "Far",
       "damage": "2d8+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -4945,7 +5135,9 @@
       "name": "Warhammer",
       "range": "Very Close",
       "damage": "2d12+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -4993,7 +5185,9 @@
       "name": "Claws and Beak",
       "range": "Very Close",
       "damage": "2d6+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -5042,7 +5236,9 @@
       "name": "Proboscis",
       "range": "Melee",
       "damage": "1d8+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -5091,7 +5287,9 @@
       "name": "Arm Whip",
       "range": "Close",
       "damage": "2d10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -5145,7 +5343,9 @@
       "name": "Claws",
       "range": "Melee",
       "damage": "1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -5189,7 +5389,9 @@
       "name": "Warhammer",
       "range": "Very Close",
       "damage": "5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -5228,7 +5430,9 @@
       "name": "Pincers",
       "range": "Melee",
       "damage": "1d12+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -5277,7 +5481,9 @@
       "name": "Glass Fangs",
       "range": "Very Close",
       "damage": "1d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -5320,7 +5526,9 @@
       "name": "Mouth Tentacles",
       "range": "Very Close",
       "damage": "2d6+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -5374,7 +5582,9 @@
       "name": "Sunsear Shortbow",
       "range": "Far",
       "damage": "2d20+3",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -5432,7 +5642,9 @@
       "name": "Boulder Fist",
       "range": "Very Close",
       "damage": "3d10+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -5485,7 +5697,9 @@
       "name": "Crashing Wave",
       "range": "Very Close",
       "damage": "3d4+1",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [],
     "features": [
@@ -5529,7 +5743,9 @@
       "name": "Ooze Appendage",
       "range": "Melee",
       "damage": "1d6+1",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -5582,7 +5798,9 @@
       "name": "Beak & Talons",
       "range": "Very Close",
       "damage": "4d8+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -5633,7 +5851,9 @@
       "name": "Tailor's Shears",
       "range": "Melee",
       "damage": "1d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -5676,7 +5896,9 @@
       "name": "Tooth & Claw",
       "range": "Very Close",
       "damage": "2d10+4",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -5738,7 +5960,9 @@
       "name": "Spear",
       "range": "Very Close",
       "damage": "2d8+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -5795,7 +6019,9 @@
       "name": "Warclub",
       "range": "Melee",
       "damage": "2d8+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -5842,7 +6068,9 @@
       "name": "Bite & Claw",
       "range": "Melee",
       "damage": "5",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [],
     "features": [
@@ -5890,7 +6118,9 @@
       "name": "Spirit Flame",
       "range": "Close",
       "damage": "2d6+4",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -5948,7 +6178,9 @@
       "name": "Sanctified Longbow",
       "range": "Far",
       "damage": "4d8+8",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -5986,7 +6218,9 @@
       "name": "Choral Blast",
       "range": "Far",
       "damage": "4d10",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -6035,7 +6269,9 @@
       "name": "Sword and Shield",
       "range": "Melee",
       "damage": "10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -6080,7 +6316,9 @@
       "name": "Great Scythe",
       "range": "Close",
       "damage": "4d10+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -6144,7 +6382,9 @@
       "name": "Barbed Lash",
       "range": "Close",
       "damage": "4d8+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -6211,7 +6451,9 @@
       "name": "Touch of Corruption",
       "range": "Melee",
       "damage": "4d10+10",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -6271,7 +6513,9 @@
       "name": "Battle Axe",
       "range": "Very Close",
       "damage": "4d20",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -6330,7 +6574,9 @@
       "name": "Talons",
       "range": "Melee",
       "damage": "1d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -6374,7 +6620,9 @@
       "name": "Javelin",
       "range": "Close",
       "damage": "1d6+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -6418,7 +6666,9 @@
       "name": "Mace",
       "range": "Melee",
       "damage": "1d10+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -6472,7 +6722,9 @@
       "name": "Rapier",
       "range": "Melee",
       "damage": "2d20+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -6531,7 +6783,9 @@
       "name": "Holy Sword",
       "range": "Very Close",
       "damage": "4d10+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -6589,7 +6843,9 @@
       "name": "Tree Stump",
       "range": "Very Close",
       "damage": "2d10+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -6650,7 +6906,9 @@
       "name": "Rotting Fist",
       "range": "Melee",
       "damage": "2d6+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -6694,7 +6952,9 @@
       "name": "Ooze Appendage",
       "range": "Melee",
       "damage": "3d8+1",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -6747,7 +7007,9 @@
       "name": "Bite",
       "range": "Close",
       "damage": "2d12+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -6801,7 +7063,9 @@
       "name": "Chomp",
       "range": "Melee",
       "damage": "6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -6845,7 +7109,9 @@
       "name": "Daggers",
       "range": "Melee",
       "damage": "1d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -6888,7 +7154,9 @@
       "name": "Staff",
       "range": "Far",
       "damage": "1d6+2",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -6932,7 +7200,9 @@
       "name": "Club",
       "range": "Melee",
       "damage": "1d4+6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -6979,7 +7249,9 @@
       "name": "Daggers",
       "range": "Melee",
       "damage": "2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7023,7 +7295,9 @@
       "name": "Javelin",
       "range": "Close",
       "damage": "1d8+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7077,7 +7351,9 @@
       "name": "Daggers",
       "range": "Melee",
       "damage": "1d4+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7121,7 +7397,9 @@
       "name": "Shortbow",
       "range": "Far",
       "damage": "1d10+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7159,7 +7437,9 @@
       "name": "Wing Slash",
       "range": "Very Close",
       "damage": "2d10+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -7207,7 +7487,9 @@
       "name": "Hooves",
       "range": "Very Close",
       "damage": "1d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7264,7 +7546,9 @@
       "name": "Longsword",
       "range": "Melee",
       "damage": "2d10+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7326,7 +7610,9 @@
       "name": "Tentacles",
       "range": "Close",
       "damage": "4d12+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7386,7 +7672,9 @@
       "name": "Curved Dagger",
       "range": "Melee",
       "damage": "3d8+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7434,7 +7722,9 @@
       "name": "Jaws",
       "range": "Melee",
       "damage": "3d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7486,7 +7776,9 @@
       "name": "Toothy Maw",
       "range": "Very Close",
       "damage": "2d12+6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7543,7 +7835,9 @@
       "name": "Toothy Maw",
       "range": "Very Close",
       "damage": "2d10+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7599,7 +7893,9 @@
       "name": "Teeth & Claws",
       "range": "Very Close",
       "damage": "3d12+6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7667,7 +7963,9 @@
       "name": "Backsword",
       "range": "Melee",
       "damage": "2d8+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7711,7 +8009,9 @@
       "name": "Open-Handed Strike",
       "range": "Melee",
       "damage": "1d12+2",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -7774,7 +8074,9 @@
       "name": "Serrated Dagger",
       "range": "Close",
       "damage": "2d10+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7832,7 +8134,9 @@
       "name": "Needle",
       "range": "Melee",
       "damage": "1d10+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7876,7 +8180,9 @@
       "name": "Rapier",
       "range": "Melee",
       "damage": "1d6+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7924,7 +8230,9 @@
       "name": "Club",
       "range": "Melee",
       "damage": "1d4+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -7967,7 +8275,9 @@
       "name": "Warp Blast",
       "range": "Close",
       "damage": "1d12+6",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [],
     "features": [
@@ -8021,7 +8331,9 @@
       "name": "Claws",
       "range": "Melee",
       "damage": "1d8+6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -8075,7 +8387,9 @@
       "name": "Elemental Blast",
       "range": "Far",
       "damage": "1d10+4",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [],
     "features": [
@@ -8128,7 +8442,9 @@
       "name": "Clawed Branch",
       "range": "Melee",
       "damage": "4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -8168,7 +8484,9 @@
       "name": "Battleaxe",
       "range": "Very Close",
       "damage": "2d8+5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -8216,7 +8534,9 @@
       "name": "Warhammer",
       "range": "Melee",
       "damage": "3d6+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -8268,7 +8588,9 @@
       "name": "Tear at Flesh",
       "range": "Very Close",
       "damage": "2d12+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -8323,7 +8645,9 @@
       "name": "Skull Flail",
       "range": "Very Close",
       "damage": "1d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -8377,7 +8701,9 @@
       "name": "Fangs & Claws",
       "range": "Melee",
       "damage": "3d6+8",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -8426,7 +8752,9 @@
       "name": "Branch",
       "range": "Very Close",
       "damage": "3d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -8474,7 +8802,9 @@
       "name": "Beak",
       "range": "Melee",
       "damage": "1d6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -8522,7 +8852,9 @@
       "name": "Psychic Attack",
       "range": "Far",
       "damage": "4d8+9",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -8585,7 +8917,9 @@
       "name": "Massive Pseudopod",
       "range": "Very Close",
       "damage": "4d6+13",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [],
     "features": [
@@ -8633,7 +8967,9 @@
       "name": "Corroding Pseudopod",
       "range": "Very Close",
       "damage": "4d8+5",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [],
     "features": [
@@ -8672,7 +9008,9 @@
       "name": "Claws and Teeth",
       "range": "Very Close",
       "damage": "11",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -8710,7 +9048,9 @@
       "name": "Razor Talons",
       "range": "Very Close",
       "damage": "4d8+5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -8772,7 +9112,9 @@
       "name": "Torture Implements",
       "range": "Melee",
       "damage": "3d6+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -8815,7 +9157,9 @@
       "name": "Teeth and Claws",
       "range": "Melee",
       "damage": "1d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -8863,7 +9207,9 @@
       "name": "Too Many Arms",
       "range": "Very Close",
       "damage": "1d20",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -8921,7 +9267,9 @@
       "name": "Greataxe",
       "range": "Very Close",
       "damage": "4d12+15",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -8969,7 +9317,9 @@
       "name": "Rapier",
       "range": "Melee",
       "damage": "1d6+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9017,7 +9367,9 @@
       "name": "Chill Touch",
       "range": "Melee",
       "damage": "1d6+2",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -9066,7 +9418,9 @@
       "name": "Fire Bolt",
       "range": "Very Far",
       "damage": "3d10+3",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -9119,7 +9473,9 @@
       "name": "Cutlass",
       "range": "Melee",
       "damage": "1d12+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9177,7 +9533,9 @@
       "name": "Cutlass",
       "range": "Melee",
       "damage": "1d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9221,7 +9579,9 @@
       "name": "Massive Fists",
       "range": "Melee",
       "damage": "2d6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9264,7 +9624,9 @@
       "name": "Bite",
       "range": "Very Close",
       "damage": "3d8+5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9308,7 +9670,9 @@
       "name": "Thrown Object",
       "range": "Far",
       "damage": "1d6+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9357,7 +9721,9 @@
       "name": "Chomp",
       "range": "Melee",
       "damage": "1d6+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9401,7 +9767,9 @@
       "name": "Gnashing Teeth",
       "range": "Melee",
       "damage": "2d6+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9454,7 +9822,9 @@
       "name": "Ooze Appendage",
       "range": "Melee",
       "damage": "1d8+3",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -9504,7 +9874,9 @@
       "name": "Gnash",
       "range": "Melee",
       "damage": "1d8+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9547,7 +9919,9 @@
       "name": "Wooden Mallet",
       "range": "Melee",
       "damage": "1d12+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9590,7 +9964,9 @@
       "name": "Meat Cleaver",
       "range": "Melee",
       "damage": "1d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9633,7 +10009,9 @@
       "name": "Burning Candlestick",
       "range": "Very Close",
       "damage": "1d10+2",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -9682,7 +10060,9 @@
       "name": "Razor",
       "range": "Melee",
       "damage": "2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9731,7 +10111,9 @@
       "name": "Beak & Talons",
       "range": "Very Close",
       "damage": "3d12+8",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9790,7 +10172,9 @@
       "name": "Bite",
       "range": "Melee",
       "damage": "2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -9828,7 +10212,9 @@
       "name": "Wand",
       "range": "Far",
       "damage": "1d4+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9880,7 +10266,9 @@
       "name": "Tooth & Claw",
       "range": "Close",
       "damage": "4d10+8",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9939,7 +10327,9 @@
       "name": "Snapping Jaws",
       "range": "Melee",
       "damage": "2d8+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -9997,7 +10387,9 @@
       "name": "Bite",
       "range": "Melee",
       "damage": "2d6+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -10041,7 +10433,9 @@
       "name": "Bite",
       "range": "Very Close",
       "damage": "3d8+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -10089,7 +10483,9 @@
       "name": "Waterlogged Weaponry",
       "range": "Close",
       "damage": "1d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -10136,7 +10532,9 @@
       "name": "Sickle",
       "range": "Melee",
       "damage": "2d6+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -10183,7 +10581,9 @@
       "name": "Sigil-laden Staff",
       "range": "Far",
       "damage": "2d12",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -10241,7 +10641,9 @@
       "name": "Longsword",
       "range": "Melee",
       "damage": "3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -10279,7 +10681,9 @@
       "name": "Strangle",
       "range": "Close",
       "damage": "10",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [],
     "features": [
@@ -10323,7 +10727,9 @@
       "name": "Bite",
       "range": "Melee",
       "damage": "1d6+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -10362,7 +10768,9 @@
       "name": "Mantis Claws",
       "range": "Very Close",
       "damage": "3d12+5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -10429,7 +10837,9 @@
       "name": "Hidden Blade",
       "range": "Melee",
       "damage": "3d8+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -10491,7 +10901,9 @@
       "name": "Toothy Maw",
       "range": "Very Close",
       "damage": "2d12+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -10539,7 +10951,9 @@
       "name": "Distended Jaw Bite",
       "range": "Melee",
       "damage": "2d6+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -10582,7 +10996,9 @@
       "name": "Shortbow",
       "range": "Far",
       "damage": "1d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -10621,7 +11037,9 @@
       "name": "Bone Claws",
       "range": "Melee",
       "damage": "1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -10659,7 +11077,9 @@
       "name": "Rusty Greatsword",
       "range": "Melee",
       "damage": "1d10+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -10702,7 +11122,9 @@
       "name": "Sword",
       "range": "Melee",
       "damage": "1d6+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -10740,7 +11162,9 @@
       "name": "Wormwood Staff",
       "range": "Far",
       "damage": "1d12",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -10788,7 +11212,9 @@
       "name": "Longbow",
       "range": "Far",
       "damage": "2d10+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -10831,7 +11257,9 @@
       "name": "Longbow",
       "range": "Far",
       "damage": "2d10+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -10884,7 +11312,9 @@
       "name": "Spear",
       "range": "Very Close",
       "damage": "2d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -10927,7 +11357,10 @@
       "name": "Empowered Longsword",
       "range": "Melee",
       "damage": "1d8+4",
-      "damageType": "phy/mag"
+      "damageType": [
+        "phy",
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -10980,7 +11413,9 @@
       "name": "Zweihänder",
       "range": "Very Close",
       "damage": "1d10+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -11023,7 +11458,9 @@
       "name": "Needle-Sharp Arrows",
       "range": "Close",
       "damage": "5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -11075,7 +11512,9 @@
       "name": "Dagger",
       "range": "Melee",
       "damage": "2d6+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -11119,7 +11558,9 @@
       "name": "Bramble Sword",
       "range": "Melee",
       "damage": "3d8+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -11167,7 +11608,9 @@
       "name": "Stone Hammer",
       "range": "Very Close",
       "damage": "3d6+8",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -11224,7 +11667,9 @@
       "name": "Bite and Claws",
       "range": "Melee",
       "damage": "2d8+6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -11277,7 +11722,9 @@
       "name": "Lightning Bolt",
       "range": "Far",
       "damage": "3d20+10",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -11336,7 +11783,9 @@
       "name": "Wing Strike",
       "range": "Close",
       "damage": "4d12+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -11389,7 +11838,9 @@
       "name": "Claws",
       "range": "Melee",
       "damage": "1d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -11429,7 +11880,9 @@
       "name": "Scythe",
       "range": "Melee",
       "damage": "1d8+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -11478,7 +11931,9 @@
       "name": "Thorns",
       "range": "Melee",
       "damage": "1d6+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -11526,7 +11981,9 @@
       "name": "Thorns",
       "range": "Melee",
       "damage": "2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -11569,7 +12026,9 @@
       "name": "Adamantine Hammer",
       "range": "Very Close",
       "damage": "40",
-      "damageType": "direct phy"
+      "damageType": [
+        "direct phy"
+      ]
     },
     "experiences": [
       {
@@ -11626,7 +12085,9 @@
       "name": "Ooze Appendage",
       "range": "Melee",
       "damage": "1d4+1",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [],
     "features": [
@@ -11658,7 +12119,9 @@
       "name": "Ooze Appendage",
       "range": "Melee",
       "damage": "1d4+2",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [],
     "features": [
@@ -11692,7 +12155,9 @@
       "name": "Branches",
       "range": "Melee",
       "damage": "8",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -11730,7 +12195,9 @@
       "name": "Horns",
       "range": "Very Close",
       "damage": "2d10+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -11778,7 +12245,9 @@
       "name": "Mighty Jaws",
       "range": "Very Close",
       "damage": "2d10+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -11826,7 +12295,9 @@
       "name": "Hoof & Horn",
       "range": "Melee",
       "damage": "3d10+3",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -11883,7 +12354,9 @@
       "name": "Black Fang",
       "range": "Melee",
       "damage": "2d8+4",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -11940,7 +12413,9 @@
       "name": "Giant Stone Pestle",
       "range": "Melee",
       "damage": "2d8+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -11994,7 +12469,9 @@
       "name": "Fangs",
       "range": "Melee",
       "damage": "3d6+6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -12042,7 +12519,9 @@
       "name": "Claws",
       "range": "Melee",
       "damage": "3d10+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -12116,7 +12595,9 @@
       "name": "Rapier",
       "range": "Melee",
       "damage": "3d8",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -12160,7 +12641,9 @@
       "name": "Body Bash",
       "range": "Very Close",
       "damage": "3d6+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -12198,7 +12681,9 @@
       "name": "Charged Mace",
       "range": "Very Close",
       "damage": "2d12+1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -12247,7 +12732,9 @@
       "name": "Magitech Cannon",
       "range": "Far",
       "damage": "3d10+3",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [],
     "features": [
@@ -12295,7 +12782,9 @@
       "name": "Bite",
       "range": "Melee",
       "damage": "1",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -12343,7 +12832,9 @@
       "name": "Long Nails",
       "range": "Melee",
       "damage": "2d6+7",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -12392,7 +12883,9 @@
       "name": "Claws and Teeth",
       "range": "Close",
       "damage": "4d12+15",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -12461,7 +12954,9 @@
       "name": "Lava-Coated Claws",
       "range": "Close",
       "damage": "4d12+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -12531,7 +13026,9 @@
       "name": "Obsidian Claws",
       "range": "Close",
       "damage": "4d10+4",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -12594,7 +13091,9 @@
       "name": "Staff",
       "range": "Far",
       "damage": "2d10+4",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -12656,7 +13155,9 @@
       "name": "Bite",
       "range": "Very Close",
       "damage": "4d10+5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -12709,7 +13210,9 @@
       "name": "Fists",
       "range": "Very Close",
       "damage": "1d20",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -12767,7 +13270,9 @@
       "name": "Claymore",
       "range": "Very Close",
       "damage": "1d12+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -12812,7 +13317,9 @@
       "name": "Shadow Touch",
       "range": "Melee",
       "damage": "3d8+4",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -12861,7 +13368,9 @@
       "name": "Flash",
       "range": "Close",
       "damage": "1d4+2",
-      "damageType": "mag"
+      "damageType": [
+        "mag"
+      ]
     },
     "experiences": [
       {
@@ -12910,7 +13419,9 @@
       "name": "Weapons from the Hoard",
       "range": "Melee",
       "damage": "11",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -12959,7 +13470,9 @@
       "name": "Tiny Jaws & Claws",
       "range": "Melee",
       "damage": "4d6+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -13007,7 +13520,9 @@
       "name": "Teeth & Claws",
       "range": "Very Close",
       "damage": "3d8+5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -13055,7 +13570,9 @@
       "name": "Tail Swipe",
       "range": "Close",
       "damage": "4d12+6",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -13118,7 +13635,9 @@
       "name": "Scythe",
       "range": "Melee",
       "damage": "1d8+5",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -13169,7 +13688,9 @@
       "name": "Bite & Claws",
       "range": "Close",
       "damage": "4d10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -13235,7 +13756,9 @@
       "name": "Bite and Claws",
       "range": "Close",
       "damage": "4d10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -13303,7 +13826,9 @@
       "name": "Tentacle Lash",
       "range": "Very Close",
       "damage": "1d6+3",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [
       {
@@ -13361,7 +13886,9 @@
       "name": "Undead Hands",
       "range": "Close",
       "damage": "4d6+10",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
@@ -13410,7 +13937,9 @@
       "name": "Bite",
       "range": "Melee",
       "damage": "1d10+2",
-      "damageType": "phy"
+      "damageType": [
+        "phy"
+      ]
     },
     "experiences": [],
     "features": [
