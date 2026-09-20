@@ -1,15 +1,15 @@
 import type { DomainName, NamedFeature, Trait } from "./common.js";
-import type { Ability } from "./parsers/ability.js";
-import type { Ancestry } from "./parsers/ancestry.js";
-import type { Armor } from "./parsers/armor.js";
-import type { Beastform } from "./parsers/beastform.js";
-import type { Class } from "./parsers/class.js";
-import type { Community } from "./parsers/community.js";
-import type { Consumable } from "./parsers/consumable.js";
-import type { Item } from "./parsers/item.js";
-import type { Subclass } from "./parsers/subclass.js";
-import type { Transformation } from "./parsers/transformation.js";
-import type { Weapon } from "./parsers/weapon.js";
+import type { Ability } from "./types/ability.js";
+import type { Ancestry } from "./types/ancestry.js";
+import type { Armor } from "./types/armor.js";
+import type { Beastform } from "./types/beastform.js";
+import type { Class } from "./types/class.js";
+import type { Community } from "./types/community.js";
+import type { Consumable } from "./types/consumable.js";
+import type { Item } from "./types/item.js";
+import type { Subclass } from "./types/subclass.js";
+import type { Transformation } from "./types/transformation.js";
+import type { Weapon } from "./types/weapon.js";
 export declare const levels: readonly [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 export type Level = (typeof levels)[number];
 /** Modifiers assigned to the six traits, in any order, at character creation. */

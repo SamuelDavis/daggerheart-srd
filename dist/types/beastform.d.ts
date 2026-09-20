@@ -1,4 +1,4 @@
-import { type Damage, type DamageType, type NamedFeature, type Range, type Tier, type Trait } from "../common.js";
+import type { Damage, DamageType, NamedFeature, Range, Tier, Trait } from "../common.js";
 export type Beastform = {
     name: string;
     tier: Tier;
@@ -19,4 +19,3 @@ export type Beastform = {
     advantages: string[];
     features: NamedFeature[];
 };
-export declare function parseBeastform(markdown: string): Beastform;

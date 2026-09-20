@@ -4,4 +4,3 @@ export type Ancestry = {
     description: string;
     features: NamedFeature[];
 };
-export declare function parseAncestry(markdown: string): Ancestry;

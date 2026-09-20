@@ -5,4 +5,3 @@ export type Transformation = {
     features: NamedFeature[];
     questions: string[];
 };
-export declare function parseTransformation(markdown: string): Transformation;

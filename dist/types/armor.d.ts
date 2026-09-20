@@ -7,4 +7,3 @@ export type Armor = {
     /** null for armor with no feature. */
     feature: NamedFeature | null;
 };
-export declare function parseArmor(markdown: string): Armor;

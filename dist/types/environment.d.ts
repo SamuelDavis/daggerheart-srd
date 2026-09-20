@@ -1,4 +1,4 @@
-import { type EnvironmentType, type Tier, type TypedFeature } from "../common.js";
+import type { EnvironmentType, Tier, TypedFeature } from "../common.js";
 import type { Adversary } from "./adversary.js";
 export type Environment = {
     name: string;
@@ -10,4 +10,3 @@ export type Environment = {
     potentialAdversaries: "Any" | Adversary["name"][];
     features: TypedFeature[];
 };
-export declare function parseEnvironment(markdown: string): Environment;

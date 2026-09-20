@@ -1,4 +1,4 @@
-import { type NamedFeature, type Trait } from "../common.js";
+import type { NamedFeature, Trait } from "../common.js";
 export type Subclass = {
     name: string;
     description: string;
@@ -8,4 +8,3 @@ export type Subclass = {
     specializationFeatures: NamedFeature[];
     masteryFeatures: NamedFeature[];
 };
-export declare function parseSubclass(markdown: string): Subclass;

@@ -1,4 +1,4 @@
-import { type DomainName } from "../common.js";
+import type { DomainName } from "../common.js";
 import type { Ability } from "./ability.js";
 export type Domain = {
     /** Official domains only for now; widen here to allow custom domains. */
@@ -10,4 +10,3 @@ export type Domain = {
         abilities: Ability["name"][];
     }[];
 };
-export declare function parseDomain(markdown: string): Domain;

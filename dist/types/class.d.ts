@@ -1,4 +1,4 @@
-import { type NamedFeature } from "../common.js";
+import type { NamedFeature } from "../common.js";
 import type { Domain } from "./domain.js";
 import type { Subclass } from "./subclass.js";
 export type Class = {
@@ -14,4 +14,3 @@ export type Class = {
     backgroundQuestions: string[];
     connections: string[];
 };
-export declare function parseClass(markdown: string): Class;

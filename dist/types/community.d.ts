@@ -6,4 +6,3 @@ export type Community = {
     temperament: string[];
     feature: NamedFeature;
 };
-export declare function parseCommunity(markdown: string): Community;

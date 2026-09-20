@@ -1,4 +1,4 @@
-import { type CardType } from "../common.js";
+import type { CardType } from "../common.js";
 import type { Domain } from "./domain.js";
 export type Ability = {
     name: string;
@@ -8,4 +8,3 @@ export type Ability = {
     recallCost: number;
     description: string;
 };
-export declare function parseAbility(markdown: string): Ability;

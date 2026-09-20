@@ -1,4 +1,4 @@
-import { type Burden, type Category, type Damage, type DamageType, type NamedFeature, type Range, type Tier, type Trait } from "../common.js";
+import type { Burden, Category, Damage, DamageType, NamedFeature, Range, Tier, Trait } from "../common.js";
 export type Weapon = {
     name: string;
     tier: Tier;
@@ -11,4 +11,3 @@ export type Weapon = {
     /** null for weapons with no feature. */
     feature: NamedFeature | null;
 };
-export declare function parseWeapon(markdown: string): Weapon;

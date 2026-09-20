@@ -1,4 +1,4 @@
-import { type AdversaryThresholds, type AdversaryType, type AttackBonus, type Damage, type DamageType, type Range, type Tier, type TypedFeature } from "../common.js";
+import type { AdversaryThresholds, AdversaryType, AttackBonus, Damage, DamageType, Range, Tier, TypedFeature } from "../common.js";
 export type Adversary = {
     name: string;
     tier: Tier;
@@ -25,4 +25,3 @@ export type Adversary = {
     }[];
     features: TypedFeature[];
 };
-export declare function parseAdversary(markdown: string): Adversary;
