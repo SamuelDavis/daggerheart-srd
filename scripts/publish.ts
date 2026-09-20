@@ -29,6 +29,9 @@ if (await git(repo, "status", "--porcelain")) {
   Deno.exit(1);
 }
 
+await git(repo, "fetch", "origin", "--tags").catch(() => {});
+await git(repo, "fetch", "origin", "dist").catch(() => {});
+
 const tags = (await git(repo, "tag", "--list", "v*")).split("\n");
 const last = Math.max(
   0,
@@ -50,8 +53,11 @@ try {
 
   // Check out the dist branch in a scratch worktree (created orphaned the
   // first time) so the main working tree is never touched.
-  const exists = await git(repo, "branch", "--list", "dist");
-  if (exists) await git(repo, "worktree", "add", tree, "dist");
+  const remote = await git(repo, "branch", "-r", "--list", "origin/dist");
+  const local = await git(repo, "branch", "--list", "dist");
+  if (remote) {
+    await git(repo, "worktree", "add", "-B", "dist", tree, "origin/dist");
+  } else if (local) await git(repo, "worktree", "add", tree, "dist");
   else await git(repo, "worktree", "add", "--orphan", "-b", "dist", tree);
 
   for await (const e of Deno.readDir(tree)) {
