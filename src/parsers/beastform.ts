@@ -17,7 +17,6 @@ import {
   namedFeatures,
   oneOf,
   parseDoc,
-  requireField,
   splitHeader,
   splitList,
   tier,
@@ -28,7 +27,7 @@ export type Beastform = {
   tier: Tier;
   /** Example creatures, e.g. ["Chimera", "Cockatrice"]. */
   examples: string[];
-  /** traitBonus, evasionBonus and attack are null where the SRD says "<no value>". */
+  /** traitBonus, evasionBonus and attack are null where the SRD says "<no value>" or omits them. */
   traitBonus: { trait: Trait; bonus: number } | null;
   evasionBonus: number | null;
   attack: {
@@ -53,10 +52,11 @@ export function parseBeastform(markdown: string): Beastform {
   const f = fields(rest);
 
   const NONE = "<no value>";
-  const traitBonusText = requireField(f, "trait bonus");
-  const evasionText = requireField(f, "evasion bonus");
-  const attackText = requireField(f, "attack");
-  const advantages = requireField(f, "advantages");
+  // Legendary/Mythic Beast and Hybrid cards omit some of these fields.
+  const traitBonusText = f.get("trait bonus") ?? NONE;
+  const evasionText = f.get("evasion bonus") ?? NONE;
+  const attackText = f.get("attack") ?? NONE;
+  const advantages = f.get("advantages") ?? NONE;
   const featureLines = findSection(doc, /^FEATURES?$/i);
 
   let traitBonus: Beastform["traitBonus"] = null;

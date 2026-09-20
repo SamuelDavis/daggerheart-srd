@@ -1,8 +1,8 @@
 import {
   type EnvironmentType,
   environmentTypes,
-  type Feature,
   type Tier,
+  type TypedFeature,
 } from "../common.ts";
 import {
   fields,
@@ -26,7 +26,7 @@ export type Environment = {
   impulses: string[];
   difficulty: string;
   potentialAdversaries: "Any" | Adversary["name"][];
-  features: Feature[];
+  features: TypedFeature[];
 };
 
 // **_Tier 4 Traversal._** _An otherworldly space ..._

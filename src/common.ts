@@ -30,7 +30,13 @@ export type Damage = DiceRoll | `${DiceRoll}${RollModifier}` | `${number}`;
 export type AttackBonus = RollModifier | `+${DiceRoll}`;
 
 // Kept as written in the SRD, including the few dual-type values.
-export const damageTypes = ["phy", "mag", "phy/mag", "phy or mag"] as const;
+export const damageTypes = [
+  "phy",
+  "mag",
+  "phy/mag",
+  "phy or mag",
+  "direct phy",
+] as const;
 export type DamageType = (typeof damageTypes)[number];
 
 export const burdens = ["One-Handed", "Two-Handed"] as const;
@@ -39,7 +45,12 @@ export type Burden = (typeof burdens)[number];
 export const categories = ["Primary", "Secondary"] as const;
 export type Category = (typeof categories)[number];
 
-export const featureTypes = ["action", "reaction", "passive"] as const;
+export const featureTypes = [
+  "action",
+  "reaction",
+  "passive",
+  "evolution",
+] as const;
 export type FeatureType = (typeof featureTypes)[number];
 
 export const domains = [
@@ -47,6 +58,7 @@ export const domains = [
   "Blade",
   "Bone",
   "Codex",
+  "Dread",
   "Grace",
   "Midnight",
   "Sage",

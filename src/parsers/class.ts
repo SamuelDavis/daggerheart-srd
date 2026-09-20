@@ -1,10 +1,4 @@
-import {
-  type DomainName,
-  domains,
-  type NamedFeature,
-  type Trait,
-  traits,
-} from "../common.ts";
+import { type DomainName, domains, type NamedFeature } from "../common.ts";
 import {
   bullets,
   fields,
@@ -15,7 +9,6 @@ import {
   parseDoc,
   requireField,
   requireSection,
-  splitList,
   text,
 } from "../markdown.ts";
 
@@ -26,11 +19,6 @@ export type Class = {
   startingEvasion: number;
   startingHitPoints: number;
   classItems: string;
-  suggestedTraits: Record<Trait, number>;
-  suggestedPrimary: string;
-  /** null when the class suggests no secondary weapon. */
-  suggestedSecondary: string | null;
-  suggestedArmor: string;
   hopeFeature: NamedFeature;
   classFeatures: NamedFeature[];
   subclasses: string[];
@@ -47,20 +35,7 @@ export function parseClass(markdown: string): Class {
     firstRule < 0 ? doc.preamble : doc.preamble.slice(0, firstRule),
   );
 
-  // Suggested traits are listed in the same order as `traits`.
-  const traitValues = splitList(requireField(f, "suggested traits")).map((v) =>
-    int(v, "suggested trait")
-  );
-  if (traitValues.length !== traits.length) {
-    throw new Error(
-      `expected ${traits.length} suggested traits, got ${traitValues.length}`,
-    );
-  }
-  const suggestedTraits = Object.fromEntries(
-    traits.map((t, i) => [t, traitValues[i]]),
-  ) as Record<Trait, number>;
-
-  const hopeFeatures = namedFeatures(requireSection(doc, /^HOPE FEATURE$/i));
+  const hopeFeatures = namedFeatures(requireSection(doc, /HOPE FEATURE$/i));
   if (hopeFeatures.length !== 1) {
     throw new Error(`expected 1 hope feature, got ${hopeFeatures.length}`);
   }
@@ -80,10 +55,6 @@ export function parseClass(markdown: string): Class {
       "starting hit points",
     ),
     classItems: requireField(f, "class items"),
-    suggestedTraits,
-    suggestedPrimary: requireField(f, "suggested primary"),
-    suggestedSecondary: f.get("suggested secondary") ?? null,
-    suggestedArmor: requireField(f, "suggested armor"),
     hopeFeature: hopeFeatures[0],
     classFeatures: namedFeatures(requireSection(doc, /^CLASS FEATURES?$/i)),
     subclasses: linkTexts(text(requireSection(doc, /^SUBCLASSES$/i))),

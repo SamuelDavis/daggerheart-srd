@@ -10,6 +10,7 @@ import { parseDomain } from "./domain.ts";
 import { parseEnvironment } from "./environment.ts";
 import { parseItem } from "./item.ts";
 import { parseSubclass } from "./subclass.ts";
+import { parseTransformation } from "./transformation.ts";
 import { parseWeapon } from "./weapon.ts";
 
 /** Parser per SRD directory name. Each writes `<directory>.json`. */
@@ -26,6 +27,7 @@ export const parsers: Record<string, (markdown: string) => unknown> = {
   environments: parseEnvironment,
   items: parseItem,
   subclasses: parseSubclass,
+  transformations: parseTransformation,
   weapons: parseWeapon,
 };
 
@@ -41,4 +43,5 @@ export * from "./domain.ts";
 export * from "./environment.ts";
 export * from "./item.ts";
 export * from "./subclass.ts";
+export * from "./transformation.ts";
 export * from "./weapon.ts";

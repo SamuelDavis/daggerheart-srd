@@ -3,15 +3,15 @@
 
 import {
   type AdversaryThresholds,
+  type ArmorThresholds,
   type Damage,
   type DamageType,
   damageTypes,
-  type Feature,
   featureTypes,
   type NamedFeature,
-  type Thresholds,
   type Tier,
   tiers,
+  type TypedFeature,
 } from "./common.ts";
 
 export type Section = { heading: string; lines: string[] };
@@ -187,7 +187,7 @@ export function tier(s: string): Tier {
 }
 
 export const DAMAGE_WITH_TYPE =
-  /^(\d*d\d+(?:[+-]\d+)?|\d+)\s+(phy or mag|[\w/]+)$/;
+  /^(\d*d\d+(?:[+-]\d+)?|\d+)\s+(phy or mag|direct phy|[\w/]+)$/;
 
 /** "d6+7 mag" -> { damage: "d6+7", damageType: "mag" } */
 export function damageWithType(
@@ -201,7 +201,7 @@ export function damageWithType(
 }
 
 /** "8/15" or "11 / 23" */
-export function thresholds(s: string): Thresholds {
+export function thresholds(s: string): ArmorThresholds {
   const m = matchOrThrow(/^(\d+)\s*\/\s*(\d+)$/, s.trim(), "thresholds");
   return { major: Number(m[1]), severe: Number(m[2]) };
 }
@@ -221,7 +221,7 @@ export function adversaryThresholds(s: string): AdversaryThresholds {
 
 type RawFeature = { heading: string; description: string };
 
-const FEATURE_LINE = /^\*\*_(.+?):_\*\*\s*(.*)$/;
+const FEATURE_LINE = /^\*\*_(.+?)[:.]_\*\*\s*(.*)$/;
 
 /**
  * Splits lines into `**_Heading:_** description` blocks. A block's description runs
@@ -253,7 +253,7 @@ export function namedFeatures(lines: string[]): NamedFeature[] {
 }
 
 /** Features written as `**_Name - Type:_** description` (type may carry a `: detail`). */
-export function typedFeatures(lines: string[]): Feature[] {
+export function typedFeatures(lines: string[]): TypedFeature[] {
   return rawFeatures(lines).map((f) => {
     // "Name - Type" or "Name - Type: detail"; tolerates "Name- Type".
     const m = f.heading.match(/^(.*?)\s*-\s*(\w+)(?::\s*(.*))?$/);

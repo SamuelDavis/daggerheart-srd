@@ -5,10 +5,10 @@ import {
   type AttackBonus,
   type Damage,
   type DamageType,
-  type Feature,
   type Range,
   ranges,
   type Tier,
+  type TypedFeature,
 } from "../common.ts";
 import {
   adversaryThresholds,
@@ -38,7 +38,8 @@ export type Adversary = {
   difficulty: number;
   thresholds: AdversaryThresholds;
   hp: number;
-  stress: number;
+  /** null where the SRD says "None". */
+  stress: number | null;
   attack: {
     bonus: AttackBonus;
     name: string;
@@ -47,7 +48,7 @@ export type Adversary = {
     damageType: DamageType;
   };
   experiences: { name: string; bonus: number }[];
-  features: Feature[];
+  features: TypedFeature[];
 };
 
 // **_Tier 1 Solo._** _A massive humanoid who sees all sapient life as food._
@@ -88,7 +89,9 @@ export function parseAdversary(markdown: string): Adversary {
     difficulty: int(requireField(f, "difficulty"), "difficulty"),
     thresholds: adversaryThresholds(requireField(f, "thresholds")),
     hp: int(requireField(f, "hp"), "hp"),
-    stress: int(requireField(f, "stress"), "stress"),
+    stress: /^none$/i.test(requireField(f, "stress"))
+      ? null
+      : int(requireField(f, "stress"), "stress"),
     attack: {
       bonus: atk[1] as AttackBonus,
       name: atk[2],
