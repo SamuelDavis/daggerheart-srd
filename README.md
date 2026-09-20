@@ -11,16 +11,16 @@ constants and TypeScript types.
 
 ### Installation
 
+Because this project is built in Deno, it necessarily compiles and commits the
+assets to the dist/ branch.
+
 ```shell
-npm install github:SamuelDavis/daggerheart-srd
+npm install github:SamuelDavis/daggerheart-srd#dist
 # or a specific tag
 npm install github:SamuelDavis/daggerheart-srd#v1.2.0
 ```
 
 ### Publishing a new version
-
-Because this project is built in Deno, it necessarily compiles and commits the
-assets to the dist/ branch.
 
 ```shell
 deno task publish /path/to/srd-markdown --push
