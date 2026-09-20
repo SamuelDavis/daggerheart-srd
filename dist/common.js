@@ -17,14 +17,14 @@ export const ranges = [
 ];
 export const damageTypes = ["phy", "mag", "direct phy"];
 export const burdens = ["One-Handed", "Two-Handed"];
-export const categories = ["Primary", "Secondary"];
+export const weaponCategories = ["Primary", "Secondary"];
 export const featureTypes = [
     "action",
     "reaction",
     "passive",
     "evolution",
 ];
-export const domains = [
+export const domainNames = [
     "Arcana",
     "Blade",
     "Bone",

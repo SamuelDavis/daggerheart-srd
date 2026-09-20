@@ -1,6 +1,6 @@
 {
   "name": "@samueldavis/daggerheart-srd",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "type": "module",
   "types": "./dist/index.d.ts",
   "exports": {
@@ -8,8 +8,13 @@
       "types": "./dist/index.d.ts",
       "default": "./dist/index.js"
     },
-    "./data/*": "./data/*.json"
+    "./data/*.json": "./data/*.json",
+    "./data/*": {
+      "types": "./data/*.d.ts",
+      "default": "./data/*.js"
+    }
   },
+  "sideEffects": false,
   "files": [
     "dist",
     "data"
