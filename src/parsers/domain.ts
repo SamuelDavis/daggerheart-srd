@@ -1,10 +1,20 @@
-import { int, linkTexts, matchOrThrow, parseDoc, text } from "../markdown.ts";
+import { type DomainName, domains } from "../common.ts";
+import {
+  int,
+  linkTexts,
+  matchOrThrow,
+  oneOf,
+  parseDoc,
+  text,
+} from "../markdown.ts";
+import type { Ability } from "./ability.ts";
 
 export type Domain = {
-  name: string;
+  /** Official domains only for now; widen here to allow custom domains. */
+  name: DomainName;
   description: string;
   /** One entry per level; `abilities` are ability names, in column order. */
-  cards: { level: number; abilities: string[] }[];
+  cards: { level: number; abilities: Ability["name"][] }[];
 };
 
 export function parseDomain(markdown: string): Domain {
@@ -32,5 +42,9 @@ export function parseDomain(markdown: string): Domain {
   });
   if (cards.length === 0) throw new Error("no domain cards found");
 
-  return { name: doc.title, description: text(doc.preamble), cards };
+  return {
+    name: oneOf(domains, doc.title, "domain"),
+    description: text(doc.preamble),
+    cards,
+  };
 }

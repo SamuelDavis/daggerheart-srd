@@ -1,9 +1,4 @@
-import {
-  type CardType,
-  cardTypes,
-  type DomainName,
-  domains,
-} from "../common.ts";
+import { type CardType, cardTypes, domains } from "../common.ts";
 import {
   int,
   matchOrThrow,
@@ -12,11 +7,12 @@ import {
   splitHeader,
   text,
 } from "../markdown.ts";
+import type { Domain } from "./domain.ts";
 
 export type Ability = {
   name: string;
   level: number;
-  domain: DomainName;
+  domain: Domain["name"];
   cardType: CardType;
   recallCost: number;
   description: string;
