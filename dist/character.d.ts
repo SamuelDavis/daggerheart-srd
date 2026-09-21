@@ -49,6 +49,7 @@ export type CustomItem = {
  */
 export type Heritage = {
     ancestry: Ancestry;
+    community: Community;
 } | {
     mixedAncestry: {
         first: {
@@ -60,6 +61,7 @@ export type Heritage = {
             feature: NamedFeature;
         };
     };
+    community: Community;
 };
 /** A class gained by multiclassing (level 5+). */
 export type Multiclass = {
@@ -78,7 +80,6 @@ export type PlayerCharacter = {
     subclass: Subclass;
     multiclass: Multiclass | null;
     heritage: Heritage;
-    community: Community;
     transformations: Transformation[];
     /** The Beastform currently taken, if any. */
     beastform: Beastform | null;
