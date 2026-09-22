@@ -8,7 +8,10 @@
     ],
     "startingEvasion": 12,
     "startingHitPoints": 5,
-    "classItems": "A list of names with several marked off or a rusted blade inscribed with an insignia",
+    "classItems": [
+      "A list of names with several marked off.",
+      "A rusted blade inscribed with an insignia."
+    ],
     "hopeFeature": {
       "name": "Deadly Determination",
       "description": "**Spend 3 Hope** to clear 2 Stress."
@@ -47,7 +50,10 @@
     ],
     "startingEvasion": 10,
     "startingHitPoints": 5,
-    "classItems": "A romance novel or a letter never opened",
+    "classItems": [
+      "A romance novel.",
+      "A letter never opened."
+    ],
     "hopeFeature": {
       "name": "Make a Scene",
       "description": "**Spend 3 Hope** to temporarily _Distract_ a target within Close range, giving them a -2 penalty to their Difficulty."
@@ -82,7 +88,10 @@
     ],
     "startingEvasion": 10,
     "startingHitPoints": 6,
-    "classItems": "Hand wraps from a mentor or a book about your secret hobby",
+    "classItems": [
+      "Hand wraps from a mentor.",
+      "A book about your secret hobby."
+    ],
     "hopeFeature": {
       "name": "Square Up",
       "description": "**Spend 3 Hope** to intimidate a target within Close range, making them temporarily _Vulnerable_."
@@ -121,7 +130,10 @@
     ],
     "startingEvasion": 10,
     "startingHitPoints": 6,
-    "classItems": "A small bag of rocks and bones or a strange pendant found in the dirt",
+    "classItems": [
+      "A small bag of rocks and bones.",
+      "A strange pendant found in the dirt."
+    ],
     "hopeFeature": {
       "name": "Evolution",
       "description": "**Spend 3 Hope** to transform into a Beastform without marking a Stress. When you do, choose one trait to raise by +1 until you drop out of that Beastform."
@@ -160,7 +172,10 @@
     ],
     "startingEvasion": 9,
     "startingHitPoints": 7,
-    "classItems": "A totem from your mentor or a secret key",
+    "classItems": [
+      "A totem from your mentor.",
+      "A secret key."
+    ],
     "hopeFeature": {
       "name": "Frontline Tank",
       "description": "**Spend 3 Hope** to clear 2 Armor Slots."
@@ -195,7 +210,10 @@
     ],
     "startingEvasion": 12,
     "startingHitPoints": 6,
-    "classItems": "A trophy from your first kill or a seemingly broken compass",
+    "classItems": [
+      "A trophy from your first kill.",
+      "A seemingly broken compass."
+    ],
     "hopeFeature": {
       "name": "Hold Them Off",
       "description": "**Spend 3 Hope** when you succeed on an attack with a weapon to use that same roll against two additional adversaries within range of the attack."
@@ -230,7 +248,10 @@
     ],
     "startingEvasion": 12,
     "startingHitPoints": 6,
-    "classItems": "A set of forgery tools or a grappling hook",
+    "classItems": [
+      "A set of forgery tools.",
+      "A grappling hook."
+    ],
     "hopeFeature": {
       "name": "Rogue's Dodge",
       "description": "**Spend 3 Hope** to gain a +2 bonus to your Evasion until the next time an attack succeeds against you. Otherwise, this bonus lasts until your next rest."
@@ -269,7 +290,10 @@
     ],
     "startingEvasion": 9,
     "startingHitPoints": 7,
-    "classItems": "A bundle of offerings or a sigil of your god",
+    "classItems": [
+      "A bundle of offerings.",
+      "A sigil of your god."
+    ],
     "hopeFeature": {
       "name": "Life Support",
       "description": "**Spend 3 Hope** to clear a Hit Point on an ally within Close range."
@@ -304,7 +328,10 @@
     ],
     "startingEvasion": 10,
     "startingHitPoints": 6,
-    "classItems": "A whispering orb or a family heirloom",
+    "classItems": [
+      "A whispering orb.",
+      "A family heirloom."
+    ],
     "hopeFeature": {
       "name": "Volatile Magic",
       "description": "**Spend 3 Hope** to reroll any number of your damage dice on an attack that deals magic damage."
@@ -347,7 +374,10 @@
     ],
     "startingEvasion": 11,
     "startingHitPoints": 5,
-    "classItems": "A carving that symbolizes your patron or a ring you can't remove",
+    "classItems": [
+      "A carving that symbolizes your patron.",
+      "A ring you can't remove."
+    ],
     "hopeFeature": {
       "name": "Patron's Boon",
       "description": "When you fail a roll, you can **spend 3 Hope** to reroll with advantage."
@@ -386,7 +416,10 @@
     ],
     "startingEvasion": 11,
     "startingHitPoints": 6,
-    "classItems": "The drawing of a lover or a sharpening stone",
+    "classItems": [
+      "The drawing of a lover.",
+      "A sharpening stone."
+    ],
     "hopeFeature": {
       "name": "No Mercy",
       "description": "**Spend 3 Hope** to gain a +1 bonus to your attack rolls until your next rest."
@@ -425,7 +458,10 @@
     ],
     "startingEvasion": 10,
     "startingHitPoints": 6,
-    "classItems": "A small, harmless pet or a scrying stone",
+    "classItems": [
+      "A small, harmless pet.",
+      "A scrying stone."
+    ],
     "hopeFeature": {
       "name": "Witch's Charm",
       "description": "When you or an ally within Far range fails an action roll, you can **spend 3 Hope** to change it into a success with Fear instead."
@@ -464,7 +500,10 @@
     ],
     "startingEvasion": 11,
     "startingHitPoints": 5,
-    "classItems": "A book you're trying to translate or a tiny, harmless elemental pet",
+    "classItems": [
+      "A book you're trying to translate.",
+      "A tiny, harmless elemental pet."
+    ],
     "hopeFeature": {
       "name": "Not This Time",
       "description": "**Spend 3 Hope** to force an adversary within Far range to reroll an attack or damage roll."

@@ -7,7 +7,7 @@ export type Class = {
     domains: Domain["name"][];
     startingEvasion: number;
     startingHitPoints: number;
-    classItems: string;
+    classItems: string[];
     hopeFeature: NamedFeature;
     classFeatures: NamedFeature[];
     subclasses: Subclass["name"][];
