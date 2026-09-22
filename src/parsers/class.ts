@@ -41,7 +41,10 @@ export function parseClass(markdown: string): Class {
       requireField(f, "starting hit points"),
       "starting hit points",
     ),
-    classItems: requireField(f, "class items"),
+    classItems: requireField(f, "class items")
+      .split(" or ")
+      .map((item) => item.trim())
+      .map((item) => item[0].toUpperCase() + item.slice(1).replace(/\.?$/, ".")),
     hopeFeature: hopeFeatures[0],
     classFeatures: namedFeatures(requireSection(doc, /^CLASS FEATURES?$/i)),
     subclasses: linkTexts(text(requireSection(doc, /^SUBCLASSES$/i))),
